@@ -96,6 +96,17 @@ function App() {
     });
   };
 
+  // Stats for header - MUST be before conditional returns (React hooks rule)
+  const stats = useMemo(() => {
+    if (scoredCourses.length === 0) return { avg: 0, min: 0, max: 0 };
+    const finals = scoredCourses.map(c => c.finalScore);
+    return {
+      avg: Math.round(finals.reduce((a, b) => a + b, 0) / finals.length * 100) / 100,
+      min: Math.round(Math.min(...finals) * 100) / 100,
+      max: Math.round(Math.max(...finals) * 100) / 100,
+    };
+  }, [scoredCourses]);
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
@@ -119,17 +130,6 @@ function App() {
       </div>
     );
   }
-
-  // Stats for header
-  const stats = useMemo(() => {
-    if (scoredCourses.length === 0) return { avg: 0, min: 0, max: 0 };
-    const finals = scoredCourses.map(c => c.finalScore);
-    return {
-      avg: Math.round(finals.reduce((a, b) => a + b, 0) / finals.length * 100) / 100,
-      min: Math.round(Math.min(...finals) * 100) / 100,
-      max: Math.round(Math.max(...finals) * 100) / 100,
-    };
-  }, [scoredCourses]);
 
   return (
     <div className="min-h-screen bg-gray-50">
