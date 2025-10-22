@@ -1,12 +1,13 @@
 import { useState, useEffect, useMemo } from 'react';
 import { CourseData, TargetFunction, Weights } from './lib/types';
 import { loadCourseData } from './lib/dataLoader';
-import { calculateScore, CRITERION_KEYS } from './lib/scoring';
+import { calculateScore, CRITERION_KEYS, COUNTRY_MODIFIERS, DEFAULT_COUNTRY_MODIFIER } from './lib/scoring';
 import { exportToCSV } from './lib/exportCsv';
 import SidebarFilters from './components/SidebarFilters';
 import WeightSliders from './components/WeightSliders';
 import RankingTable from './components/RankingTable';
 import ScoreDebugger from './components/ScoreDebugger';
+import CountryModifierSliders, { CountryModifiers } from './components/CountryModifierSliders';
 import { Download, Loader2 } from 'lucide-react';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     return defaultWeights;
   });
 
+  const [countryModifiers, setCountryModifiers] = useState<CountryModifiers>({});
   const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
   const [selectedArchetypes, setSelectedArchetypes] = useState<string[]>([]);
 
@@ -48,6 +50,17 @@ function App() {
     return Array.from(new Set(data.map(d => d['Course Archetype']))).sort();
   }, [data]);
 
+  // Initialize country modifiers when data loads
+  useEffect(() => {
+    if (data.length > 0 && Object.keys(countryModifiers).length === 0) {
+      const initialModifiers: CountryModifiers = {};
+      countries.forEach(country => {
+        initialModifiers[country] = COUNTRY_MODIFIERS[country] ?? DEFAULT_COUNTRY_MODIFIER;
+      });
+      setCountryModifiers(initialModifiers);
+    }
+  }, [data, countries, countryModifiers]);
+
   // Filter and score courses
   const scoredCourses = useMemo(() => {
     let filtered = data;
@@ -60,8 +73,8 @@ function App() {
       filtered = filtered.filter(d => selectedArchetypes.includes(d['Course Archetype']));
     }
 
-    return filtered.map(course => calculateScore(course, targetFunction, weights));
-  }, [data, targetFunction, weights, selectedCountries, selectedArchetypes]);
+    return filtered.map(course => calculateScore(course, targetFunction, weights, countryModifiers));
+  }, [data, targetFunction, weights, countryModifiers, selectedCountries, selectedArchetypes]);
 
   const handleClearFilters = () => {
     setSelectedCountries([]);
@@ -69,7 +82,7 @@ function App() {
   };
 
   const handleExport = () => {
-    exportToCSV(scoredCourses, targetFunction, weights, {
+    exportToCSV(scoredCourses, targetFunction, weights, countryModifiers, {
       countries: selectedCountries,
       archetypes: selectedArchetypes,
     });
@@ -143,7 +156,7 @@ function App() {
       <main className="max-w-[1920px] mx-auto px-6 py-8">
         <div className="grid grid-cols-12 gap-6">
           {/* Left Sidebar - Filters */}
-          <div className="col-span-12 lg:col-span-3">
+          <div className="col-span-12 lg:col-span-3 space-y-6">
             <SidebarFilters
               countries={countries}
               archetypes={archetypes}
@@ -154,6 +167,11 @@ function App() {
               onArchetypesChange={setSelectedArchetypes}
               onFunctionChange={setTargetFunction}
               onClearFilters={handleClearFilters}
+            />
+            <CountryModifierSliders
+              countries={countries}
+              modifiers={countryModifiers}
+              onModifiersChange={setCountryModifiers}
             />
           </div>
 

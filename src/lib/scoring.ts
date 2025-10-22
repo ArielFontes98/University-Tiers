@@ -39,7 +39,8 @@ export function getCountryModifier(country: string): number {
 export function calculateScore(
   course: CourseData,
   targetFunction: TargetFunction,
-  weights: Weights
+  weights: Weights,
+  customCountryModifiers?: Record<string, number>
 ): ScoredCourse {
   const multipliers = FUNCTION_MULTIPLIERS[targetFunction];
   
@@ -56,7 +57,7 @@ export function calculateScore(
   });
 
   const baseScore = denominator > 0 ? (numerator / denominator) * 100 : 0;
-  const countryModifier = getCountryModifier(course.Country);
+  const countryModifier = customCountryModifiers?.[course.Country] ?? getCountryModifier(course.Country);
   const finalScore = baseScore * countryModifier;
 
   return {

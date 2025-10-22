@@ -5,6 +5,7 @@ export function exportToCSV(
   courses: ScoredCourse[],
   targetFunction: TargetFunction,
   weights: Weights,
+  countryModifiers: Record<string, number>,
   filters: {
     countries: string[];
     archetypes: string[];
@@ -22,6 +23,10 @@ export function exportToCSV(
   CRITERION_KEYS.forEach((key, idx) => {
     const shortName = key.replace(' (0-10)', '').replace('(DS/ML/Stats/SQL) ', '');
     lines.push(`#   ${idx + 1}. ${shortName}: ${weights[key]?.toFixed(1) ?? '1.0'}`);
+  });
+  lines.push('# Country Modifiers:');
+  Object.entries(countryModifiers).sort().forEach(([country, modifier]) => {
+    lines.push(`#   ${country}: ${modifier.toFixed(2)}x`);
   });
   lines.push('');
 
