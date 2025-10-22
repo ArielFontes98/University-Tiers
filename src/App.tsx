@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { CourseData, ScoredCourse, TargetFunction, Weights } from './lib/types';
+import { CourseData, TargetFunction, Weights } from './lib/types';
 import { loadCourseData } from './lib/dataLoader';
 import { calculateScore, CRITERION_KEYS } from './lib/scoring';
 import { exportToCSV } from './lib/exportCsv';
