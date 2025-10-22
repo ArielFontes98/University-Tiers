@@ -124,14 +124,36 @@ export default function RankingTable({ courses }: RankingTableProps) {
                     </td>
                     <td className="px-6 py-4 text-sm text-gray-700">{course['City/Region']}</td>
                     <td className="px-6 py-4 text-sm text-gray-700">{course['Course Archetype']}</td>
-                    <td className="px-6 py-4 text-sm font-semibold text-gray-900">
-                      {course.baseScore.toFixed(2)}
+                    <td className="px-6 py-4">
+                      <div className="text-sm font-semibold text-gray-900">
+                        {course.baseScore.toFixed(2)}
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-1.5 mt-1">
+                        <div 
+                          className="bg-blue-500 h-1.5 rounded-full transition-all duration-300"
+                          style={{ width: `${course.baseScore}%` }}
+                        />
+                      </div>
                     </td>
-                    <td className="px-6 py-4 text-sm text-gray-700">
-                      {course.countryModifier.toFixed(2)}
+                    <td className="px-6 py-4">
+                      <span className={`text-sm font-medium ${
+                        course.countryModifier > 1 ? 'text-green-600' : 
+                        course.countryModifier < 1 ? 'text-orange-600' : 
+                        'text-gray-700'
+                      }`}>
+                        {course.countryModifier.toFixed(2)}x
+                      </span>
                     </td>
-                    <td className="px-6 py-4 text-sm font-bold text-primary">
-                      {course.finalScore.toFixed(2)}
+                    <td className="px-6 py-4">
+                      <div className="text-sm font-bold text-primary">
+                        {course.finalScore.toFixed(2)}
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2 mt-1">
+                        <div 
+                          className="bg-primary h-2 rounded-full transition-all duration-300"
+                          style={{ width: `${Math.min(course.finalScore, 100)}%` }}
+                        />
+                      </div>
                     </td>
                     <td className="px-6 py-4">
                       <TierBadge tier={course.tier} />

@@ -26,17 +26,43 @@ export default function WeightSliders({ weights, onWeightsChange }: WeightSlider
       .replace('D&I', 'D&I');
   };
 
+  const testExtremes = () => {
+    const extremeWeights: Weights = {};
+    CRITERION_KEYS.forEach((key, idx) => {
+      // Alternate between 0 and 2 to show clear impact
+      extremeWeights[key] = idx % 2 === 0 ? 2.0 : 0.0;
+    });
+    onWeightsChange(extremeWeights);
+  };
+
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 sticky top-6">
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-4">
         <h2 className="text-xl font-bold text-gray-900">Criterion Weights</h2>
-        <button
-          onClick={resetWeights}
-          className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl text-sm font-medium transition"
-          aria-label="Reset all weights to 1.0"
-        >
-          Reset
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={testExtremes}
+            className="px-3 py-1.5 bg-purple-100 hover:bg-purple-200 text-primary rounded-lg text-xs font-medium transition"
+            aria-label="Test with extreme weights"
+            title="Set alternating extreme weights to test impact"
+          >
+            Test
+          </button>
+          <button
+            onClick={resetWeights}
+            className="px-3 py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg text-xs font-medium transition"
+            aria-label="Reset all weights to 1.0"
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+      
+      <div className="mb-4 p-3 bg-blue-50 rounded-lg border border-blue-200">
+        <p className="text-xs text-blue-800">
+          💡 <strong>Tip:</strong> Adjust weights to prioritize different criteria. 
+          Higher values (2.0) amplify importance; lower values (0.0) minimize it.
+        </p>
       </div>
 
       <div className="space-y-5">
@@ -51,8 +77,17 @@ export default function WeightSliders({ weights, onWeightsChange }: WeightSlider
                 >
                   {idx + 1}. {getShortName(key)}
                 </label>
-                <span className="text-sm font-bold text-primary">
+                <span className={`text-sm font-bold transition-all ${
+                  weight === 1.0 ? 'text-gray-600' :
+                  weight > 1.0 ? 'text-green-600' :
+                  'text-orange-600'
+                }`}>
                   {weight.toFixed(1)}
+                  {weight !== 1.0 && (
+                    <span className="text-xs ml-1">
+                      {weight > 1.0 ? '↑' : '↓'}
+                    </span>
+                  )}
                 </span>
               </div>
               <input

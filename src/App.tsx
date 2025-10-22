@@ -6,6 +6,7 @@ import { exportToCSV } from './lib/exportCsv';
 import SidebarFilters from './components/SidebarFilters';
 import WeightSliders from './components/WeightSliders';
 import RankingTable from './components/RankingTable';
+import ScoreDebugger from './components/ScoreDebugger';
 import { Download, Loader2 } from 'lucide-react';
 
 function App() {
@@ -98,6 +99,17 @@ function App() {
     );
   }
 
+  // Stats for header
+  const stats = useMemo(() => {
+    if (scoredCourses.length === 0) return { avg: 0, min: 0, max: 0 };
+    const finals = scoredCourses.map(c => c.finalScore);
+    return {
+      avg: Math.round(finals.reduce((a, b) => a + b, 0) / finals.length * 100) / 100,
+      min: Math.round(Math.min(...finals) * 100) / 100,
+      max: Math.round(Math.max(...finals) * 100) / 100,
+    };
+  }, [scoredCourses]);
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
@@ -110,6 +122,9 @@ function App() {
               </h1>
               <p className="text-gray-600 mt-1">
                 {scoredCourses.length} courses • {targetFunction} function
+              </p>
+              <p className="text-sm text-gray-500 mt-1">
+                Score Range: {stats.min}–{stats.max} • Average: {stats.avg}
               </p>
             </div>
             <button
@@ -143,7 +158,12 @@ function App() {
           </div>
 
           {/* Center - Table */}
-          <div className="col-span-12 lg:col-span-6">
+          <div className="col-span-12 lg:col-span-6 space-y-6">
+            <ScoreDebugger 
+              courses={scoredCourses}
+              targetFunction={targetFunction}
+              weights={weights}
+            />
             <RankingTable courses={scoredCourses} />
           </div>
 
