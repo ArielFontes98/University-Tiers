@@ -1,0 +1,156 @@
+═══════════════════════════════════════════════════════════════
+  🎉 STEM COURSE PRIORITIZATION - QUICK START GUIDE
+═══════════════════════════════════════════════════════════════
+
+✅ SITE JÁ ESTÁ NO AR COM 1136 CURSOS!
+
+🌐 Acesse agora:
+   https://arielfontes98.github.io/University-Tiers/
+
+───────────────────────────────────────────────────────────────
+💻 PARA RODAR LOCALMENTE:
+───────────────────────────────────────────────────────────────
+
+⚠️  NÃO use o terminal do Cursor (tem restrições de sandbox)
+
+✅ Abra o TERMINAL NORMAL do macOS e execute:
+
+   cd /Users/ariel.fontes/university-tiers
+   ./start-local.sh
+
+   OU simplesmente:
+   
+   cd /Users/ariel.fontes/university-tiers
+   npm run dev
+
+Vai abrir em: http://localhost:5173
+
+───────────────────────────────────────────────────────────────
+🎯 COMO USAR A SIMULAÇÃO:
+───────────────────────────────────────────────────────────────
+
+1️⃣  ABRA O SCORE CALCULATOR (painel no topo da tabela)
+   → Clique para expandir
+   → Selecione um curso para ver o cálculo detalhado
+
+2️⃣  AJUSTE OS PESOS DOS CRITÉRIOS (sidebar direito)
+   → Mova qualquer slider de 0.0 a 2.0
+   → Veja as BARRAS no Score Calculator mudarem!
+   → Veja os SCORES na tabela atualizarem!
+   → Veja a ORDEM mudar!
+
+3️⃣  AJUSTE OS COUNTRY MODIFIERS (sidebar esquerdo)
+   → Cada país tem seu próprio slider (0.5x - 1.5x)
+   → Aumente Brazil para 1.5x = cursos BR sobem no ranking
+   → Reduza USA para 0.7x = cursos USA caem no ranking
+   → MUDANÇAS INSTANTÂNEAS!
+
+4️⃣  USE O BOTÃO "TEST"
+   → Aplica pesos extremos alternados
+   → Mostra mudanças DRAMÁTICAS
+   → Perfeito para demonstrações
+
+5️⃣  TROQUE A FUNÇÃO
+   → AE, BA ou DS/MLE
+   → Cada uma tem multipliers diferentes
+   → Rankings mudam completamente!
+
+───────────────────────────────────────────────────────────────
+🎨 INDICADORES VISUAIS:
+───────────────────────────────────────────────────────────────
+
+Nos Pesos:
+  🟢 Verde com ↑ = peso aumentado (>1.0)
+  🟠 Laranja com ↓ = peso reduzido (<1.0)
+  ⚪ Cinza = peso padrão (1.0)
+
+Nos Country Modifiers:
+  🟢 Verde = boost (>1.0)
+  🟠 Laranja = redução (<1.0)
+  🟣 Fundo roxo = valor foi modificado
+
+Na Tabela:
+  📊 Barras azuis = Base Score
+  📊 Barras roxas = Final Score
+  🟢/🟠 Modifier colorido
+  ✨ Animações suaves (300ms)
+
+───────────────────────────────────────────────────────────────
+📊 DATASET COMPLETO:
+───────────────────────────────────────────────────────────────
+
+Total: 1136 cursos
+
+Por País:
+  🇺🇸 United States:  425 cursos
+  🇧🇷 Brazil:         241 cursos
+  🇲🇽 Mexico:         172 cursos
+  🌎 Others:          167 cursos
+  🇨🇴 Colombia:       131 cursos
+
+Arquétipos Principais:
+  • Computer Science (BSc) - 170
+  • Data Science (BSc) - 170
+  • Computer Engineering (BEng) - 149
+  • Software Engineering (BEng) - 137
+  • Economics (BSc) - 91
+  • Industrial Engineering - 80
+  • Statistics (BSc) - 78
+  • E mais 5 arquétipos!
+
+───────────────────────────────────────────────────────────────
+🧪 CENÁRIOS DE TESTE SUGERIDOS:
+───────────────────────────────────────────────────────────────
+
+Cenário 1: Priorizar Brasil
+  → Brazil modifier: 1.5x
+  → Curriculum Depth: 2.0
+  → Analytics Orientation: 0.5
+  = Cursos BR com forte ML/DS sobem!
+
+Cenário 2: Priorizar Business Analytics
+  → Função: BA
+  → Analytics Orientation: 2.0
+  → Engineering Foundations: 0.5
+  = Cursos business-focused sobem!
+
+Cenário 3: Balanceado Regional
+  → Brazil: 1.2x
+  → Mexico: 1.2x
+  → Colombia: 1.2x
+  → USA: 0.8x
+  = Favorece América Latina!
+
+───────────────────────────────────────────────────────────────
+📝 ARQUIVOS ÚTEIS:
+───────────────────────────────────────────────────────────────
+
+• README.md - Documentação completa
+• DEPLOY_INSTRUCTIONS.md - Como configurar GitHub Pages
+• check-deploy.sh - Verifica status do deploy
+• start-local.sh - Inicia servidor local (USE ESTE!)
+
+───────────────────────────────────────────────────────────────
+🆘 PROBLEMAS?
+───────────────────────────────────────────────────────────────
+
+Erro ao rodar npm run dev no Cursor?
+  → É limitação do sandbox
+  → Use Terminal normal do macOS!
+
+Site não carrega?
+  → Verifique: https://github.com/ArielFontes98/University-Tiers/actions
+  → Aguarde workflow ficar verde ✅
+
+Scores não mudam?
+  → Abra o Score Calculator
+  → Use o botão "Test" 
+  → Tente pesos extremos (0.0 ou 2.0)
+  → Ajuste country modifiers!
+
+───────────────────────────────────────────────────────────────
+
+🎉 APROVEITE A SIMULAÇÃO!
+
+═══════════════════════════════════════════════════════════════
+
