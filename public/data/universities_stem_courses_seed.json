@@ -1,0 +1,164 @@
+[
+  {
+    "Country": "Brazil",
+    "University": "Universidade de São Paulo (USP)",
+    "City/Region": "São Paulo, SP",
+    "STEM Courses (Archetypes)": "Computer Science; Data Science; Statistics; Computer Engineering",
+    "Notes": "Top-tier research university with strong engineering programs and active tech clubs"
+  },
+  {
+    "Country": "Brazil",
+    "University": "Universidade Estadual de Campinas (UNICAMP)",
+    "City/Region": "Campinas, SP",
+    "STEM Courses (Archetypes)": "Computer Engineering; Computer Science; Statistics",
+    "Notes": "Strong engineering school with industry partnerships and innovation hubs"
+  },
+  {
+    "Country": "Brazil",
+    "University": "Instituto Tecnológico de Aeronáutica (ITA)",
+    "City/Region": "São José dos Campos, SP",
+    "STEM Courses (Archetypes)": "Computer Engineering; Software Engineering",
+    "Notes": "Elite engineering institution with rigorous curriculum and high placement rates"
+  },
+  {
+    "Country": "Brazil",
+    "University": "Universidade Federal do Rio de Janeiro (UFRJ)",
+    "City/Region": "Rio de Janeiro, RJ",
+    "STEM Courses (Archetypes)": "Computer Science; Information Systems; Statistics",
+    "Notes": "Large federal university with diverse STEM programs and research centers"
+  },
+  {
+    "Country": "Brazil",
+    "University": "Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)",
+    "City/Region": "Rio de Janeiro, RJ",
+    "STEM Courses (Archetypes)": "Computer Science; Business Analytics",
+    "Notes": "Private university with strong business-tech integration and startup ecosystem"
+  },
+  {
+    "Country": "Brazil",
+    "University": "Instituto de Matemática Pura e Aplicada (IMPA)",
+    "City/Region": "Rio de Janeiro, RJ",
+    "STEM Courses (Archetypes)": "Mathematics; Statistics; Data Science",
+    "Notes": "Premier mathematics institute with cutting-edge research in quantitative fields"
+  },
+  {
+    "Country": "Brazil",
+    "University": "Universidade Federal de Minas Gerais (UFMG)",
+    "City/Region": "Belo Horizonte, MG",
+    "STEM Courses (Archetypes)": "Computer Science; Computer Engineering; Statistics",
+    "Notes": "Strong regional presence with growing tech scene and industry connections"
+  },
+  {
+    "Country": "Mexico",
+    "University": "Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM)",
+    "City/Region": "Monterrey, NL",
+    "STEM Courses (Archetypes)": "Computer Science; Data Science; Industrial Engineering; Business Analytics",
+    "Notes": "Top private university with multiple campuses and strong corporate partnerships"
+  },
+  {
+    "Country": "Mexico",
+    "University": "Universidad Nacional Autónoma de México (UNAM)",
+    "City/Region": "Mexico City",
+    "STEM Courses (Archetypes)": "Computer Science; Mathematics; Statistics; Computer Engineering",
+    "Notes": "Largest university in Latin America with extensive research capabilities"
+  },
+  {
+    "Country": "Mexico",
+    "University": "Instituto Politécnico Nacional (IPN)",
+    "City/Region": "Mexico City",
+    "STEM Courses (Archetypes)": "Computer Engineering; Software Engineering; Data Science",
+    "Notes": "Public polytechnic with strong technical focus and industry ties"
+  },
+  {
+    "Country": "Mexico",
+    "University": "Universidad de Guadalajara",
+    "City/Region": "Guadalajara, Jalisco",
+    "STEM Courses (Archetypes)": "Computer Science; Information Systems; Software Engineering",
+    "Notes": "Major university in Mexico's Silicon Valley region with tech startup culture"
+  },
+  {
+    "Country": "Colombia",
+    "University": "Universidad de los Andes",
+    "City/Region": "Bogotá",
+    "STEM Courses (Archetypes)": "Computer Science; Data Science; Industrial Engineering; Business Analytics",
+    "Notes": "Top private university with strong engineering and business programs"
+  },
+  {
+    "Country": "Colombia",
+    "University": "Universidad Nacional de Colombia",
+    "City/Region": "Bogotá",
+    "STEM Courses (Archetypes)": "Computer Science; Statistics; Computer Engineering",
+    "Notes": "Largest public university with comprehensive STEM offerings and research centers"
+  },
+  {
+    "Country": "Colombia",
+    "University": "Universidad EAFIT",
+    "City/Region": "Medellín",
+    "STEM Courses (Archetypes)": "Computer Science; Business Analytics; Data Science",
+    "Notes": "Growing reputation in tech and innovation, strong industry connections in Medellín"
+  },
+  {
+    "Country": "Colombia",
+    "University": "Pontificia Universidad Javeriana",
+    "City/Region": "Bogotá",
+    "STEM Courses (Archetypes)": "Computer Science; Information Systems; Industrial Engineering",
+    "Notes": "Well-established private university with focus on social impact and technology"
+  },
+  {
+    "Country": "United States",
+    "University": "Massachusetts Institute of Technology (MIT)",
+    "City/Region": "Cambridge, MA",
+    "STEM Courses (Archetypes)": "Computer Science; Data Science; Software Engineering; Mathematics",
+    "Notes": "World-leading tech institution with exceptional research and innovation output"
+  },
+  {
+    "Country": "United States",
+    "University": "Stanford University",
+    "City/Region": "Stanford, CA",
+    "STEM Courses (Archetypes)": "Computer Science; Data Science; Statistics; Software Engineering",
+    "Notes": "Silicon Valley powerhouse with strong entrepreneurship culture and industry ties"
+  },
+  {
+    "Country": "United States",
+    "University": "Carnegie Mellon University",
+    "City/Region": "Pittsburgh, PA",
+    "STEM Courses (Archetypes)": "Computer Science; Data Science; Software Engineering; Statistics",
+    "Notes": "Premier computer science school with specialized programs in AI/ML and data science"
+  },
+  {
+    "Country": "United States",
+    "University": "University of California, Berkeley",
+    "City/Region": "Berkeley, CA",
+    "STEM Courses (Archetypes)": "Computer Science; Data Science; Statistics; Mathematics",
+    "Notes": "Top public university with strong STEM programs and Bay Area tech connections"
+  },
+  {
+    "Country": "United States",
+    "University": "Georgia Institute of Technology",
+    "City/Region": "Atlanta, GA",
+    "STEM Courses (Archetypes)": "Computer Science; Computer Engineering; Industrial Engineering",
+    "Notes": "Leading engineering school with large cohorts and strong industry placement"
+  },
+  {
+    "Country": "Others",
+    "University": "Universidad de Buenos Aires (UBA)",
+    "City/Region": "Buenos Aires, Argentina",
+    "STEM Courses (Archetypes)": "Computer Science; Mathematics; Statistics",
+    "Notes": "Large public university with strong foundational programs in Buenos Aires tech scene"
+  },
+  {
+    "Country": "Others",
+    "University": "Pontificia Universidad Católica de Chile",
+    "City/Region": "Santiago, Chile",
+    "STEM Courses (Archetypes)": "Computer Science; Data Science; Industrial Engineering",
+    "Notes": "Top Chilean university with growing tech ecosystem and regional influence"
+  },
+  {
+    "Country": "Others",
+    "University": "Universidade de Coimbra",
+    "City/Region": "Coimbra, Portugal",
+    "STEM Courses (Archetypes)": "Computer Science; Software Engineering; Mathematics",
+    "Notes": "Historic European university with modernized STEM programs and EU connections"
+  }
+]
+
