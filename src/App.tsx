@@ -30,12 +30,26 @@ function App() {
 
   // Load data on mount
   useEffect(() => {
+    console.log('🚀 Starting data load...');
     loadCourseData()
       .then(loadedData => {
+        console.log(`✅ Loaded ${loadedData.length} courses`);
         setData(loadedData);
+        
+        // Initialize country modifiers immediately with loaded data
+        const uniqueCountries = Array.from(new Set(loadedData.map(d => d.Country)));
+        const initialModifiers: CountryModifiers = {};
+        uniqueCountries.forEach(country => {
+          initialModifiers[country] = COUNTRY_MODIFIERS[country] ?? DEFAULT_COUNTRY_MODIFIER;
+        });
+        console.log('✅ Initialized country modifiers:', Object.keys(initialModifiers));
+        setCountryModifiers(initialModifiers);
+        
         setLoading(false);
+        console.log('✅ App ready!');
       })
       .catch(err => {
+        console.error('❌ Error loading data:', err);
         setError(err.message);
         setLoading(false);
       });
@@ -50,19 +64,13 @@ function App() {
     return Array.from(new Set(data.map(d => d['Course Archetype']))).sort();
   }, [data]);
 
-  // Initialize country modifiers when data loads
-  useEffect(() => {
-    if (data.length > 0 && Object.keys(countryModifiers).length === 0) {
-      const initialModifiers: CountryModifiers = {};
-      countries.forEach(country => {
-        initialModifiers[country] = COUNTRY_MODIFIERS[country] ?? DEFAULT_COUNTRY_MODIFIER;
-      });
-      setCountryModifiers(initialModifiers);
-    }
-  }, [data, countries, countryModifiers]);
-
   // Filter and score courses
   const scoredCourses = useMemo(() => {
+    // Don't calculate if data or modifiers aren't ready
+    if (data.length === 0 || Object.keys(countryModifiers).length === 0) {
+      return [];
+    }
+
     let filtered = data;
 
     if (selectedCountries.length > 0) {
