@@ -1,235 +1,160 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Download } from 'lucide-react';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import { SidebarFilters } from './components/SidebarFilters';
-import { UniversityList } from './components/UniversityList';
-import { UniversityData, Filters, CriteriaScores, Country } from './types';
-import { loadUniversityData } from './utils/dataLoader';
-import { saveScores, loadScores, saveFilters, loadFilters, clearAllData } from './utils/storage';
-import { getPresetForCourse } from './utils/presets';
-import { exportToCSV } from './utils/export';
-import { calculateScore } from './utils/scoring';
+import { CourseData, ScoredCourse, TargetFunction, Weights } from './lib/types';
+import { loadCourseData } from './lib/dataLoader';
+import { calculateScore, CRITERION_KEYS } from './lib/scoring';
+import { exportToCSV } from './lib/exportCsv';
+import SidebarFilters from './components/SidebarFilters';
+import WeightSliders from './components/WeightSliders';
+import RankingTable from './components/RankingTable';
+import { Download, Loader2 } from 'lucide-react';
 
 function App() {
-  const [universities, setUniversities] = useState<UniversityData[]>([]);
-  const [filters, setFilters] = useState<Filters>({
-    countries: ['Brazil', 'Mexico', 'Colombia', 'United States', 'Others'] as Country[],
-    stemCourses: [],
-    targetFunction: 'DS/MLE',
-  });
+  const [data, setData] = useState<CourseData[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const [targetFunction, setTargetFunction] = useState<TargetFunction>('DS/MLE');
+  const [weights, setWeights] = useState<Weights>(() => {
+    const defaultWeights: Weights = {};
+    CRITERION_KEYS.forEach(key => {
+      defaultWeights[key] = 1.0;
+    });
+    return defaultWeights;
+  });
+
+  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
+  const [selectedArchetypes, setSelectedArchetypes] = useState<string[]>([]);
 
   // Load data on mount
   useEffect(() => {
-    async function loadData() {
-      try {
-        const data = await loadUniversityData();
-        setUniversities(data);
-
-        // Load saved filters
-        const savedFilters = loadFilters();
-        if (savedFilters) {
-          setFilters(savedFilters);
-        }
-      } catch (error) {
-        console.error('Failed to load data:', error);
-      } finally {
+    loadCourseData()
+      .then(loadedData => {
+        setData(loadedData);
         setLoading(false);
-      }
-    }
-    loadData();
+      })
+      .catch(err => {
+        setError(err.message);
+        setLoading(false);
+      });
   }, []);
 
-  // Save filters when changed
-  useEffect(() => {
-    if (!loading) {
-      saveFilters(filters);
+  // Extract unique countries and archetypes
+  const countries = useMemo(() => {
+    return Array.from(new Set(data.map(d => d.Country))).sort();
+  }, [data]);
+
+  const archetypes = useMemo(() => {
+    return Array.from(new Set(data.map(d => d['Course Archetype']))).sort();
+  }, [data]);
+
+  // Filter and score courses
+  const scoredCourses = useMemo(() => {
+    let filtered = data;
+
+    if (selectedCountries.length > 0) {
+      filtered = filtered.filter(d => selectedCountries.includes(d.Country));
     }
-  }, [filters, loading]);
 
-  // Extract all unique courses
-  const allCourses = useMemo(() => {
-    const coursesSet = new Set<string>();
-    universities.forEach(uni => {
-      const courses = uni['STEM Courses (Archetypes)']
-        .split(';')
-        .map(c => c.trim())
-        .filter(Boolean);
-      courses.forEach(course => coursesSet.add(course));
-    });
-    return Array.from(coursesSet).sort();
-  }, [universities]);
-
-  // Update stem courses filter when universities load
-  useEffect(() => {
-    if (allCourses.length > 0 && filters.stemCourses.length === 0) {
-      setFilters(prev => ({ ...prev, stemCourses: allCourses }));
+    if (selectedArchetypes.length > 0) {
+      filtered = filtered.filter(d => selectedArchetypes.includes(d['Course Archetype']));
     }
-  }, [allCourses]);
 
-  // Filter universities
-  const filteredUniversities = useMemo(() => {
-    return universities.filter(uni => {
-      // Filter by country
-      if (!filters.countries.includes(uni.Country)) {
-        return false;
-      }
+    return filtered.map(course => calculateScore(course, targetFunction, weights));
+  }, [data, targetFunction, weights, selectedCountries, selectedArchetypes]);
 
-      // Filter by STEM courses
-      const uniCourses = uni['STEM Courses (Archetypes)']
-        .split(';')
-        .map(c => c.trim())
-        .filter(Boolean);
-      
-      const hasMatchingCourse = uniCourses.some(course =>
-        filters.stemCourses.includes(course)
-      );
-
-      return hasMatchingCourse;
-    });
-  }, [universities, filters]);
-
-  const getScores = (university: string, course: string): CriteriaScores => {
-    const saved = loadScores(university, course);
-    if (saved) {
-      return saved;
-    }
-    // Return zero scores as default
-    return {
-      curriculumDepth: 0,
-      engineeringFoundations: 0,
-      dataEngineeringExposure: 0,
-      analyticsBusinessOrientation: 0,
-      cohortSizeContinuity: 0,
-      capstoneProjectsIntensity: 0,
-      toolsStackFamiliarity: 0,
-      clubsCompetitions: 0,
-      internshipAlignment: 0,
-      diPipelineContribution: 0,
-      regionalCoverageFit: 0,
-    };
-  };
-
-  const handleScoresChange = (university: string, course: string, scores: CriteriaScores) => {
-    saveScores(university, course, scores);
-    // Force re-render
-    setUniversities([...universities]);
-  };
-
-  const handleApplyPreset = () => {
-    filteredUniversities.forEach(uni => {
-      const courses = uni['STEM Courses (Archetypes)']
-        .split(';')
-        .map(c => c.trim())
-        .filter(Boolean);
-      
-      courses.forEach(course => {
-        const preset = getPresetForCourse(course);
-        saveScores(uni.University, course, preset);
-      });
-    });
-    
-    // Force re-render
-    setUniversities([...universities]);
-  };
-
-  const handleClearData = () => {
-    if (confirm('Are you sure you want to clear all saved scores? This cannot be undone.')) {
-      clearAllData();
-      setUniversities([...universities]);
-    }
+  const handleClearFilters = () => {
+    setSelectedCountries([]);
+    setSelectedArchetypes([]);
   };
 
   const handleExport = () => {
-    const exportData = filteredUniversities.map(uni => {
-      const courses = uni['STEM Courses (Archetypes)']
-        .split(';')
-        .map(c => c.trim())
-        .filter(Boolean);
-      
-      const course = courses[0] || '';
-      const scores = getScores(uni.University, course);
-      const { baseScore, finalScore, tier } = calculateScore(
-        scores,
-        filters.targetFunction,
-        uni.Country
-      );
-
-      return {
-        ...uni,
-        selectedCourse: course,
-        scores,
-        baseScore,
-        finalScore,
-        tier,
-      };
+    exportToCSV(scoredCourses, targetFunction, weights, {
+      countries: selectedCountries,
+      archetypes: selectedArchetypes,
     });
-
-    exportToCSV(exportData);
   };
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading universities...</p>
+          <Loader2 className="w-12 h-12 text-primary animate-spin mx-auto mb-4" />
+          <p className="text-gray-600 text-lg">Loading course data...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl mx-4">
+          <h2 className="text-2xl font-bold text-red-600 mb-4">Failed to Load Data</h2>
+          <pre className="bg-gray-100 p-4 rounded-xl text-sm text-gray-700 overflow-auto whitespace-pre-wrap">
+            {error}
+          </pre>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      
-      <div className="flex-1 flex">
-        <SidebarFilters
-          filters={filters}
-          availableCourses={allCourses}
-          onFiltersChange={setFilters}
-          onApplyPreset={handleApplyPreset}
-          onClearData={handleClearData}
-        />
-
-        <main className="flex-1 overflow-y-auto">
-          <div className="max-w-6xl mx-auto p-6">
-            {/* Action bar */}
-            <div className="flex items-center justify-between mb-6">
-              <div>
-                <h2 className="text-xl font-semibold text-gray-900">
-                  {filteredUniversities.length} {filteredUniversities.length === 1 ? 'University' : 'Universities'}
-                </h2>
-                <p className="text-sm text-gray-600 mt-1">
-                  Target: {filters.targetFunction}
-                </p>
-              </div>
-              <button
-                onClick={handleExport}
-                className="btn-primary flex items-center gap-2"
-                disabled={filteredUniversities.length === 0}
-              >
-                <Download className="w-4 h-4" />
-                Export CSV
-              </button>
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <header className="bg-white shadow-sm border-b border-gray-200">
+        <div className="max-w-[1920px] mx-auto px-6 py-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-3xl font-bold text-gray-900">
+                STEM Course Prioritization
+              </h1>
+              <p className="text-gray-600 mt-1">
+                {scoredCourses.length} courses • {targetFunction} function
+              </p>
             </div>
+            <button
+              onClick={handleExport}
+              className="flex items-center space-x-2 px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold shadow-md transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              aria-label="Export current view as CSV"
+            >
+              <Download className="w-5 h-5" />
+              <span>Export CSV</span>
+            </button>
+          </div>
+        </div>
+      </header>
 
-            {/* University list */}
-            <UniversityList
-              universities={filteredUniversities}
-              targetFunction={filters.targetFunction}
-              onScoresChange={handleScoresChange}
-              getScores={getScores}
+      {/* Main Content */}
+      <main className="max-w-[1920px] mx-auto px-6 py-8">
+        <div className="grid grid-cols-12 gap-6">
+          {/* Left Sidebar - Filters */}
+          <div className="col-span-12 lg:col-span-3">
+            <SidebarFilters
+              countries={countries}
+              archetypes={archetypes}
+              selectedCountries={selectedCountries}
+              selectedArchetypes={selectedArchetypes}
+              targetFunction={targetFunction}
+              onCountriesChange={setSelectedCountries}
+              onArchetypesChange={setSelectedArchetypes}
+              onFunctionChange={setTargetFunction}
+              onClearFilters={handleClearFilters}
             />
           </div>
-        </main>
-      </div>
 
-      <Footer />
+          {/* Center - Table */}
+          <div className="col-span-12 lg:col-span-6">
+            <RankingTable courses={scoredCourses} />
+          </div>
+
+          {/* Right Sidebar - Weights */}
+          <div className="col-span-12 lg:col-span-3">
+            <WeightSliders weights={weights} onWeightsChange={setWeights} />
+          </div>
+        </div>
+      </main>
     </div>
   );
 }
 
 export default App;
-

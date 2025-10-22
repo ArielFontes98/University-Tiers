@@ -1,126 +1,123 @@
-import { Target, MapPin, BookOpen } from 'lucide-react';
-import { Country, TargetFunction, Filters } from '../types';
+import { TargetFunction } from '../lib/types';
 
 interface SidebarFiltersProps {
-  filters: Filters;
-  availableCourses: string[];
-  onFiltersChange: (filters: Filters) => void;
-  onApplyPreset: () => void;
-  onClearData: () => void;
+  countries: string[];
+  archetypes: string[];
+  selectedCountries: string[];
+  selectedArchetypes: string[];
+  targetFunction: TargetFunction;
+  onCountriesChange: (countries: string[]) => void;
+  onArchetypesChange: (archetypes: string[]) => void;
+  onFunctionChange: (func: TargetFunction) => void;
+  onClearFilters: () => void;
 }
 
-const COUNTRIES: Country[] = ['Brazil', 'Mexico', 'Colombia', 'United States', 'Others'];
-const TARGET_FUNCTIONS: TargetFunction[] = ['AE', 'BA', 'DS/MLE'];
-
-export function SidebarFilters({
-  filters,
-  availableCourses,
-  onFiltersChange,
-  onApplyPreset,
-  onClearData,
+export default function SidebarFilters({
+  countries,
+  archetypes,
+  selectedCountries,
+  selectedArchetypes,
+  targetFunction,
+  onCountriesChange,
+  onArchetypesChange,
+  onFunctionChange,
+  onClearFilters,
 }: SidebarFiltersProps) {
-  const toggleCountry = (country: Country) => {
-    const newCountries = filters.countries.includes(country)
-      ? filters.countries.filter(c => c !== country)
-      : [...filters.countries, country];
-    onFiltersChange({ ...filters, countries: newCountries });
+  const toggleCountry = (country: string) => {
+    if (selectedCountries.includes(country)) {
+      onCountriesChange(selectedCountries.filter(c => c !== country));
+    } else {
+      onCountriesChange([...selectedCountries, country]);
+    }
   };
 
-  const toggleCourse = (course: string) => {
-    const newCourses = filters.stemCourses.includes(course)
-      ? filters.stemCourses.filter(c => c !== course)
-      : [...filters.stemCourses, course];
-    onFiltersChange({ ...filters, stemCourses: newCourses });
-  };
-
-  const setTargetFunction = (targetFunction: TargetFunction) => {
-    onFiltersChange({ ...filters, targetFunction });
+  const toggleArchetype = (archetype: string) => {
+    if (selectedArchetypes.includes(archetype)) {
+      onArchetypesChange(selectedArchetypes.filter(a => a !== archetype));
+    } else {
+      onArchetypesChange([...selectedArchetypes, archetype]);
+    }
   };
 
   return (
-    <aside className="w-80 bg-white border-r border-gray-200 overflow-y-auto">
-      <div className="p-6 space-y-6">
-        {/* Target Function */}
-        <div>
-          <div className="flex items-center gap-2 mb-3">
-            <Target className="w-5 h-5 text-primary" />
-            <h3 className="font-semibold text-gray-900">Target Function</h3>
-          </div>
-          <div className="space-y-2">
-            {TARGET_FUNCTIONS.map(func => (
-              <label key={func} className="flex items-center gap-2 cursor-pointer">
-                <input
-                  type="radio"
-                  name="targetFunction"
-                  checked={filters.targetFunction === func}
-                  onChange={() => setTargetFunction(func)}
-                  className="w-4 h-4 text-primary focus:ring-primary"
-                />
-                <span className="text-sm text-gray-700">{func}</span>
-              </label>
-            ))}
-          </div>
-        </div>
+    <div className="w-80 bg-white rounded-2xl shadow-lg p-6 space-y-6">
+      <div className="flex items-center justify-between">
+        <h2 className="text-xl font-bold text-gray-900">Filters</h2>
+        <button
+          onClick={onClearFilters}
+          className="text-sm text-primary hover:text-primary-dark font-medium"
+        >
+          Clear all
+        </button>
+      </div>
 
-        {/* Countries */}
-        <div>
-          <div className="flex items-center gap-2 mb-3">
-            <MapPin className="w-5 h-5 text-primary" />
-            <h3 className="font-semibold text-gray-900">Countries</h3>
-          </div>
-          <div className="space-y-2">
-            {COUNTRIES.map(country => (
-              <label key={country} className="flex items-center gap-2 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={filters.countries.includes(country)}
-                  onChange={() => toggleCountry(country)}
-                  className="w-4 h-4 text-primary rounded focus:ring-primary"
-                />
-                <span className="text-sm text-gray-700">{country}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-
-        {/* STEM Courses */}
-        <div>
-          <div className="flex items-center gap-2 mb-3">
-            <BookOpen className="w-5 h-5 text-primary" />
-            <h3 className="font-semibold text-gray-900">STEM Courses</h3>
-          </div>
-          <div className="space-y-2 max-h-64 overflow-y-auto">
-            {availableCourses.map(course => (
-              <label key={course} className="flex items-center gap-2 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={filters.stemCourses.includes(course)}
-                  onChange={() => toggleCourse(course)}
-                  className="w-4 h-4 text-primary rounded focus:ring-primary"
-                />
-                <span className="text-sm text-gray-700">{course}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-
-        {/* Actions */}
-        <div className="space-y-3 pt-6 border-t border-gray-200">
-          <button
-            onClick={onApplyPreset}
-            className="btn-primary w-full"
-          >
-            Apply Default Presets
-          </button>
-          <button
-            onClick={onClearData}
-            className="btn-secondary w-full"
-          >
-            Clear All Data
-          </button>
+      {/* Target Function */}
+      <div>
+        <label className="block text-sm font-semibold text-gray-700 mb-3">
+          Target Function
+        </label>
+        <div className="space-y-2">
+          {(['AE', 'BA', 'DS/MLE'] as TargetFunction[]).map(func => (
+            <button
+              key={func}
+              onClick={() => onFunctionChange(func)}
+              className={`w-full px-4 py-2.5 rounded-xl text-left font-medium transition-all ${
+                targetFunction === func
+                  ? 'bg-primary text-white shadow-md'
+                  : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
+              }`}
+            >
+              {func}
+            </button>
+          ))}
         </div>
       </div>
-    </aside>
+
+      {/* Countries */}
+      <div>
+        <label className="block text-sm font-semibold text-gray-700 mb-3">
+          Country ({selectedCountries.length} selected)
+        </label>
+        <div className="space-y-2 max-h-64 overflow-y-auto">
+          {countries.map(country => (
+            <label
+              key={country}
+              className="flex items-center space-x-3 cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition"
+            >
+              <input
+                type="checkbox"
+                checked={selectedCountries.includes(country)}
+                onChange={() => toggleCountry(country)}
+                className="w-4 h-4 text-primary rounded focus:ring-2 focus:ring-primary"
+              />
+              <span className="text-sm text-gray-700">{country}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* Course Archetypes */}
+      <div>
+        <label className="block text-sm font-semibold text-gray-700 mb-3">
+          Course Archetype ({selectedArchetypes.length} selected)
+        </label>
+        <div className="space-y-2 max-h-64 overflow-y-auto">
+          {archetypes.map(archetype => (
+            <label
+              key={archetype}
+              className="flex items-center space-x-3 cursor-pointer hover:bg-gray-50 p-2 rounded-lg transition"
+            >
+              <input
+                type="checkbox"
+                checked={selectedArchetypes.includes(archetype)}
+                onChange={() => toggleArchetype(archetype)}
+                className="w-4 h-4 text-primary rounded focus:ring-2 focus:ring-primary"
+              />
+              <span className="text-sm text-gray-700">{archetype}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+    </div>
   );
 }
-

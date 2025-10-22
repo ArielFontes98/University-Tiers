@@ -1,20 +1,22 @@
-import { Tier } from '../types';
-import { getTierInfo } from '../utils/scoring';
+import { getTierNumber } from '../lib/scoring';
 
 interface TierBadgeProps {
-  tier: Tier;
-  finalScore: number;
+  tier: string;
 }
 
-export function TierBadge({ tier, finalScore }: TierBadgeProps) {
-  const tierInfo = getTierInfo(tier);
+export default function TierBadge({ tier }: TierBadgeProps) {
+  const tierNum = getTierNumber(tier);
   
+  const styles = {
+    0: 'bg-primary text-white font-bold shadow-lg',
+    1: 'bg-primary-light text-white font-semibold shadow-md',
+    2: 'bg-purple-200 text-primary-dark font-medium',
+    3: 'bg-gray-200 text-gray-700',
+  };
+
   return (
-    <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl font-medium ${tierInfo.bgColor} ${tierInfo.color}`}>
-      <span className="text-xl font-bold">{finalScore.toFixed(1)}</span>
-      <span>•</span>
-      <span>{tierInfo.name}</span>
-    </div>
+    <span className={`inline-block px-3 py-1 rounded-full text-sm ${styles[tierNum as keyof typeof styles]}`}>
+      {tier}
+    </span>
   );
 }
-
