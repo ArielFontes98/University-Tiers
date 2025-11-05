@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { CourseData, TargetFunction, FunctionWeights } from './lib/types';
 import { loadCourseData } from './lib/dataLoader';
-import { calculateScore, FUNCTION_WEIGHTS, COUNTRY_MODIFIERS, DEFAULT_COUNTRY_MODIFIER } from './lib/scoring';
+import { calculateScore, FUNCTION_WEIGHTS, COUNTRY_MODIFIERS } from './lib/scoring';
 import { exportToCSV } from './lib/exportCsv';
 import SidebarFilters from './components/SidebarFilters';
 import WeightSliders from './components/WeightSliders';

@@ -110,7 +110,7 @@ export function getCountryModifier(country: string): number {
  */
 export function calculateScore(
   course: CourseData,
-  targetFunction: TargetFunction,
+  _targetFunction: TargetFunction,
   weights: FunctionWeights,
   customCountryModifiers?: Record<string, number>
 ): ScoredCourse {

@@ -18,7 +18,7 @@ export function exportToCSV(
   courses: ScoredCourse[],
   targetFunction: TargetFunction,
   weights: FunctionWeights,
-  countryModifiers: Record<string, number>,
+  _countryModifiers: Record<string, number>,
   filters: ExportFilters
 ): void {
   if (courses.length === 0) {
