@@ -1,107 +1,68 @@
-import { Weights } from '../lib/types';
-import { CRITERION_KEYS } from '../lib/scoring';
+import { FunctionWeights } from '../lib/types';
+import { RotateCcw } from 'lucide-react';
 
 interface WeightSlidersProps {
-  weights: Weights;
-  onWeightsChange: (weights: Weights) => void;
+  weights: FunctionWeights;
+  onWeightChange: (weights: FunctionWeights) => void;
+  onReset: () => void;
 }
 
-export default function WeightSliders({ weights, onWeightsChange }: WeightSlidersProps) {
-  const handleWeightChange = (key: string, value: number) => {
-    onWeightsChange({ ...weights, [key]: value });
-  };
+const WEIGHT_INFO = [
+  { key: 'wQ', label: 'Quality', description: 'Course quality/reputation in country', max: 3 },
+  { key: 'wS', label: 'Scale', description: 'Cohort size/volume', max: 3 },
+  { key: 'wE', label: 'Employability', description: 'Pipeline to data/tech roles', max: 3 },
+  { key: 'wG', label: 'GeoFit', description: 'Geographic/strategic fit', max: 2 },
+];
 
-  const resetWeights = () => {
-    const defaultWeights: Weights = {};
-    CRITERION_KEYS.forEach(key => {
-      defaultWeights[key] = 1.0;
+export default function WeightSliders({ weights, onWeightChange, onReset }: WeightSlidersProps) {
+  const handleSliderChange = (key: keyof FunctionWeights, value: number) => {
+    onWeightChange({
+      ...weights,
+      [key]: value,
     });
-    onWeightsChange(defaultWeights);
-  };
-
-  const getShortName = (key: string) => {
-    return key
-      .replace(' (0-10)', '')
-      .replace('(DS/ML/Stats/SQL) ', '')
-      .replace('D&I', 'D&I');
-  };
-
-  const testExtremes = () => {
-    const extremeWeights: Weights = {};
-    CRITERION_KEYS.forEach((key, idx) => {
-      // Alternate between 0 and 2 to show clear impact
-      extremeWeights[key] = idx % 2 === 0 ? 2.0 : 0.0;
-    });
-    onWeightsChange(extremeWeights);
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 sticky top-6">
+    <div className="bg-white rounded-2xl shadow-sm p-6">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-xl font-bold text-gray-900">Criterion Weights</h2>
-        <div className="flex gap-2">
-          <button
-            onClick={testExtremes}
-            className="px-3 py-1.5 bg-purple-100 hover:bg-purple-200 text-primary rounded-lg text-xs font-medium transition"
-            aria-label="Test with extreme weights"
-            title="Set alternating extreme weights to test impact"
-          >
-            Test
-          </button>
-          <button
-            onClick={resetWeights}
-            className="px-3 py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg text-xs font-medium transition"
-            aria-label="Reset all weights to 1.0"
-          >
-            Reset
-          </button>
-        </div>
-      </div>
-      
-      <div className="mb-4 p-3 bg-blue-50 rounded-lg border border-blue-200">
-        <p className="text-xs text-blue-800">
-          💡 <strong>Tip:</strong> Adjust weights to prioritize different criteria. 
-          Higher values (2.0) amplify importance; lower values (0.0) minimize it.
-        </p>
+        <h3 className="text-lg font-semibold text-gray-900">Criterion Weights</h3>
+        <button
+          onClick={onReset}
+          className="flex items-center gap-2 px-3 py-1.5 text-sm text-purple-600 hover:text-purple-700 hover:bg-purple-50 rounded-lg transition-colors"
+          title="Reset to function defaults"
+        >
+          <RotateCcw className="w-4 h-4" />
+          Reset
+        </button>
       </div>
 
-      <div className="space-y-5">
-        {CRITERION_KEYS.map((key, idx) => {
-          const weight = weights[key] ?? 1.0;
+      <div className="space-y-4">
+        {WEIGHT_INFO.map(({ key, label, description }) => {
+          const weightKey = key as keyof FunctionWeights;
+          const value = weights[weightKey];
+          
           return (
-            <div key={key}>
-              <div className="flex items-center justify-between mb-2">
-                <label
-                  htmlFor={`weight-${idx}`}
-                  className="text-sm font-medium text-gray-700"
-                >
-                  {idx + 1}. {getShortName(key)}
+            <div key={key} className="space-y-2">
+              <div className="flex items-center justify-between">
+                <label htmlFor={key} className="text-sm font-medium text-gray-700">
+                  {label}
+                  <span className="ml-2 text-xs text-gray-500">({description})</span>
                 </label>
-                <span className={`text-sm font-bold transition-all ${
-                  weight === 1.0 ? 'text-gray-600' :
-                  weight > 1.0 ? 'text-green-600' :
-                  'text-orange-600'
-                }`}>
-                  {weight.toFixed(1)}
-                  {weight !== 1.0 && (
-                    <span className="text-xs ml-1">
-                      {weight > 1.0 ? '↑' : '↓'}
-                    </span>
-                  )}
+                <span className="text-sm font-semibold text-purple-600 min-w-[3rem] text-right">
+                  {value.toFixed(1)}
                 </span>
               </div>
               <input
-                id={`weight-${idx}`}
+                id={key}
                 type="range"
                 min="0"
                 max="2"
                 step="0.1"
-                value={weight}
-                onChange={(e) => handleWeightChange(key, parseFloat(e.target.value))}
-                className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-                aria-label={`Weight for ${getShortName(key)}`}
+                value={value}
+                onChange={(e) => handleSliderChange(weightKey, parseFloat(e.target.value))}
+                className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-purple-600"
               />
-              <div className="flex justify-between text-xs text-gray-500 mt-1">
+              <div className="flex justify-between text-xs text-gray-400">
                 <span>0.0</span>
                 <span>1.0</span>
                 <span>2.0</span>
@@ -110,7 +71,13 @@ export default function WeightSliders({ weights, onWeightsChange }: WeightSlider
           );
         })}
       </div>
+
+      <div className="mt-4 pt-4 border-t border-gray-200">
+        <p className="text-xs text-gray-600">
+          Adjust weights to emphasize different criteria. Higher weights mean that criterion 
+          has more influence on the final score. Default weights vary by target function (AE, BA, DS/MLE).
+        </p>
+      </div>
     </div>
   );
 }
-

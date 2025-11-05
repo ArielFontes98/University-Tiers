@@ -1,30 +1,29 @@
 import { useState, useEffect, useMemo } from 'react';
-import { CourseData, TargetFunction, Weights } from './lib/types';
+import { CourseData, TargetFunction, FunctionWeights } from './lib/types';
 import { loadCourseData } from './lib/dataLoader';
-import { calculateScore, CRITERION_KEYS, COUNTRY_MODIFIERS, DEFAULT_COUNTRY_MODIFIER } from './lib/scoring';
+import { calculateScore, FUNCTION_WEIGHTS, COUNTRY_MODIFIERS, DEFAULT_COUNTRY_MODIFIER } from './lib/scoring';
 import { exportToCSV } from './lib/exportCsv';
 import SidebarFilters from './components/SidebarFilters';
 import WeightSliders from './components/WeightSliders';
 import RankingTable from './components/RankingTable';
-import ScoreDebugger from './components/ScoreDebugger';
-import CountryModifierSliders, { CountryModifiers } from './components/CountryModifierSliders';
-import { Download, Loader2 } from 'lucide-react';
+import Disclaimer from './components/Disclaimer';
+import CriteriaInfo from './components/CriteriaInfo';
+import { Download, Loader2, Info } from 'lucide-react';
 
 function App() {
   const [data, setData] = useState<CourseData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [showCriteriaInfo, setShowCriteriaInfo] = useState(false);
 
   const [targetFunction, setTargetFunction] = useState<TargetFunction>('DS/MLE');
-  const [weights, setWeights] = useState<Weights>(() => {
-    const defaultWeights: Weights = {};
-    CRITERION_KEYS.forEach(key => {
-      defaultWeights[key] = 1.0;
-    });
-    return defaultWeights;
+  const [weights, setWeights] = useState<FunctionWeights>(FUNCTION_WEIGHTS['DS/MLE']);
+
+  const [countryModifiers] = useState<Record<string, number>>(() => {
+    // Initialize country modifiers (currently not user-editable, but ready for future)
+    return { ...COUNTRY_MODIFIERS };
   });
 
-  const [countryModifiers, setCountryModifiers] = useState<CountryModifiers>({});
   const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
   const [selectedArchetypes, setSelectedArchetypes] = useState<string[]>([]);
 
@@ -35,16 +34,6 @@ function App() {
       .then(loadedData => {
         console.log(`✅ Loaded ${loadedData.length} courses`);
         setData(loadedData);
-        
-        // Initialize country modifiers immediately with loaded data
-        const uniqueCountries = Array.from(new Set(loadedData.map(d => d.Country)));
-        const initialModifiers: CountryModifiers = {};
-        uniqueCountries.forEach(country => {
-          initialModifiers[country] = COUNTRY_MODIFIERS[country] ?? DEFAULT_COUNTRY_MODIFIER;
-        });
-        console.log('✅ Initialized country modifiers:', Object.keys(initialModifiers));
-        setCountryModifiers(initialModifiers);
-        
         setLoading(false);
         console.log('✅ App ready!');
       })
@@ -54,6 +43,11 @@ function App() {
         setLoading(false);
       });
   }, []);
+
+  // Update weights when function changes
+  useEffect(() => {
+    setWeights(FUNCTION_WEIGHTS[targetFunction]);
+  }, [targetFunction]);
 
   // Extract unique countries and archetypes
   const countries = useMemo(() => {
@@ -66,8 +60,7 @@ function App() {
 
   // Filter and score courses
   const scoredCourses = useMemo(() => {
-    // Don't calculate if data or modifiers aren't ready
-    if (data.length === 0 || Object.keys(countryModifiers).length === 0) {
+    if (data.length === 0) {
       return [];
     }
 
@@ -89,6 +82,10 @@ function App() {
     setSelectedArchetypes([]);
   };
 
+  const handleResetWeights = () => {
+    setWeights(FUNCTION_WEIGHTS[targetFunction]);
+  };
+
   const handleExport = () => {
     exportToCSV(scoredCourses, targetFunction, weights, countryModifiers, {
       countries: selectedCountries,
@@ -96,7 +93,7 @@ function App() {
     });
   };
 
-  // Stats for header - MUST be before conditional returns (React hooks rule)
+  // Stats for header
   const stats = useMemo(() => {
     if (scoredCourses.length === 0) return { avg: 0, min: 0, max: 0 };
     const finals = scoredCourses.map(c => c.finalScore);
@@ -126,6 +123,14 @@ function App() {
           <pre className="bg-gray-100 p-4 rounded-xl text-sm text-gray-700 overflow-auto whitespace-pre-wrap">
             {error}
           </pre>
+          <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+            <p className="text-sm text-blue-800">
+              <strong>Expected data file:</strong> <code>public/data/university_course_simple_scores.csv</code> or <code>.json</code>
+            </p>
+            <p className="text-sm text-blue-800 mt-2">
+              Make sure the file exists and contains the required columns: Country, University, City/Region, Course Archetype, Notes, Quality_0_3, Scale_0_3, Employability_0_3, GeoFit_0_2
+            </p>
+          </div>
         </div>
       </div>
     );
@@ -142,26 +147,44 @@ function App() {
                 STEM Course Prioritization
               </h1>
               <p className="text-gray-600 mt-1">
-                {scoredCourses.length} courses • {targetFunction} function
+                {scoredCourses.length} courses • {targetFunction} function • Simplified 4-Criteria Model
               </p>
               <p className="text-sm text-gray-500 mt-1">
                 Score Range: {stats.min}–{stats.max} • Average: {stats.avg}
               </p>
             </div>
-            <button
-              onClick={handleExport}
-              className="flex items-center space-x-2 px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold shadow-md transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-              aria-label="Export current view as CSV"
-            >
-              <Download className="w-5 h-5" />
-              <span>Export CSV</span>
-            </button>
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => setShowCriteriaInfo(!showCriteriaInfo)}
+                className="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl font-medium transition"
+                aria-label="Show criteria information"
+              >
+                <Info className="w-5 h-5" />
+                <span>About Criteria</span>
+              </button>
+              <button
+                onClick={handleExport}
+                className="flex items-center space-x-2 px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold shadow-md transition focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                aria-label="Export current view as CSV"
+              >
+                <Download className="w-5 h-5" />
+                <span>Export CSV</span>
+              </button>
+            </div>
           </div>
         </div>
       </header>
 
       {/* Main Content */}
       <main className="max-w-[1920px] mx-auto px-6 py-8">
+        <Disclaimer />
+
+        {showCriteriaInfo && (
+          <div className="mb-6">
+            <CriteriaInfo />
+          </div>
+        )}
+
         <div className="grid grid-cols-12 gap-6">
           {/* Left Sidebar - Filters */}
           <div className="col-span-12 lg:col-span-3 space-y-6">
@@ -176,29 +199,33 @@ function App() {
               onFunctionChange={setTargetFunction}
               onClearFilters={handleClearFilters}
             />
-            <CountryModifierSliders
-              countries={countries}
-              modifiers={countryModifiers}
-              onModifiersChange={setCountryModifiers}
-            />
           </div>
 
           {/* Center - Table */}
           <div className="col-span-12 lg:col-span-6 space-y-6">
-            <ScoreDebugger 
-              courses={scoredCourses}
-              targetFunction={targetFunction}
-              weights={weights}
-            />
             <RankingTable courses={scoredCourses} />
           </div>
 
           {/* Right Sidebar - Weights */}
           <div className="col-span-12 lg:col-span-3">
-            <WeightSliders weights={weights} onWeightsChange={setWeights} />
+            <WeightSliders 
+              weights={weights} 
+              onWeightChange={setWeights}
+              onReset={handleResetWeights}
+            />
           </div>
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="bg-white border-t border-gray-200 mt-12">
+        <div className="max-w-[1920px] mx-auto px-6 py-6">
+          <p className="text-sm text-gray-600 text-center">
+            STEM Course Prioritization Tool • Simplified 4-Criteria Model • 
+            Data is heuristic and for simulation purposes only
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { ScoredCourse } from '../lib/types';
-import { CRITERION_KEYS } from '../lib/scoring';
 import TierBadge from './TierBadge';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -8,7 +7,7 @@ interface RankingTableProps {
   courses: ScoredCourse[];
 }
 
-type SortField = 'finalScore' | 'baseScore' | 'University';
+type SortField = 'finalScore' | 'baseScore' | 'University' | 'Quality_0_3' | 'Scale_0_3' | 'Employability_0_3' | 'GeoFit_0_2';
 type SortDirection = 'asc' | 'desc';
 
 export default function RankingTable({ courses }: RankingTableProps) {
@@ -54,18 +53,6 @@ export default function RankingTable({ courses }: RankingTableProps) {
     setExpandedRow(expandedRow === idx ? null : idx);
   };
 
-  const getShortName = (key: string) => {
-    return key
-      .replace(' (0-10)', '')
-      .replace('(DS/ML/Stats/SQL) ', '')
-      .replace('D&I', 'D&I');
-  };
-
-  // Find source columns
-  const getSourceColumns = (course: ScoredCourse): string[] => {
-    return Object.keys(course).filter(key => key.startsWith('Source:'));
-  };
-
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
       <div className="overflow-x-auto">
@@ -88,13 +75,38 @@ export default function RankingTable({ courses }: RankingTableProps) {
                 Course
               </th>
               <th
+                className="px-4 py-4 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                onClick={() => handleSort('Quality_0_3')}
+                title="Quality Index (0-3)"
+              >
+                Q <SortIcon field="Quality_0_3" />
+              </th>
+              <th
+                className="px-4 py-4 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                onClick={() => handleSort('Scale_0_3')}
+                title="Scale/Cohort Size (0-3)"
+              >
+                S <SortIcon field="Scale_0_3" />
+              </th>
+              <th
+                className="px-4 py-4 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                onClick={() => handleSort('Employability_0_3')}
+                title="Employability (0-3)"
+              >
+                E <SortIcon field="Employability_0_3" />
+              </th>
+              <th
+                className="px-4 py-4 text-center text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                onClick={() => handleSort('GeoFit_0_2')}
+                title="Geographic Fit (0-2)"
+              >
+                G <SortIcon field="GeoFit_0_2" />
+              </th>
+              <th
                 className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                 onClick={() => handleSort('baseScore')}
               >
                 Base <SortIcon field="baseScore" />
-              </th>
-              <th className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider">
-                Modifier
               </th>
               <th
                 className="px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
@@ -110,11 +122,11 @@ export default function RankingTable({ courses }: RankingTableProps) {
           <tbody className="divide-y divide-gray-200">
             {sortedCourses.map((course, idx) => {
               const isExpanded = expandedRow === idx;
-              const sourceColumns = getSourceColumns(course);
 
               return (
-                <React.Fragment key={idx}>
+                <>
                   <tr
+                    key={idx}
                     className="hover:bg-gray-50 cursor-pointer transition"
                     onClick={() => toggleRow(idx)}
                   >
@@ -124,34 +136,45 @@ export default function RankingTable({ courses }: RankingTableProps) {
                     </td>
                     <td className="px-6 py-4 text-sm text-gray-700">{course['City/Region']}</td>
                     <td className="px-6 py-4 text-sm text-gray-700">{course['Course Archetype']}</td>
+                    <td className="px-4 py-4 text-center">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-purple-100 text-purple-700 font-semibold text-sm">
+                        {course.Quality_0_3}
+                      </span>
+                    </td>
+                    <td className="px-4 py-4 text-center">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-blue-100 text-blue-700 font-semibold text-sm">
+                        {course.Scale_0_3}
+                      </span>
+                    </td>
+                    <td className="px-4 py-4 text-center">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-green-100 text-green-700 font-semibold text-sm">
+                        {course.Employability_0_3}
+                      </span>
+                    </td>
+                    <td className="px-4 py-4 text-center">
+                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-amber-100 text-amber-700 font-semibold text-sm">
+                        {course.GeoFit_0_2}
+                      </span>
+                    </td>
                     <td className="px-6 py-4">
                       <div className="text-sm font-semibold text-gray-900">
-                        {course.baseScore.toFixed(2)}
+                        {course.baseScore.toFixed(1)}
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-1.5 mt-1">
                         <div 
                           className="bg-blue-500 h-1.5 rounded-full transition-all duration-300"
-                          style={{ width: `${course.baseScore}%` }}
+                          style={{ width: `${Math.min(100, course.baseScore)}%` }}
                         />
                       </div>
                     </td>
                     <td className="px-6 py-4">
-                      <span className={`text-sm font-medium ${
-                        course.countryModifier > 1 ? 'text-green-600' : 
-                        course.countryModifier < 1 ? 'text-orange-600' : 
-                        'text-gray-700'
-                      }`}>
-                        {course.countryModifier.toFixed(2)}x
-                      </span>
-                    </td>
-                    <td className="px-6 py-4">
                       <div className="text-sm font-bold text-primary">
-                        {course.finalScore.toFixed(2)}
+                        {course.finalScore.toFixed(1)}
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-2 mt-1">
+                      <div className="w-full bg-gray-200 rounded-full h-1.5 mt-1">
                         <div 
-                          className="bg-primary h-2 rounded-full transition-all duration-300"
-                          style={{ width: `${Math.min(course.finalScore, 100)}%` }}
+                          className="bg-primary h-1.5 rounded-full transition-all duration-300"
+                          style={{ width: `${Math.min(100, course.finalScore)}%` }}
                         />
                       </div>
                     </td>
@@ -160,59 +183,58 @@ export default function RankingTable({ courses }: RankingTableProps) {
                     </td>
                   </tr>
                   {isExpanded && (
-                    <tr>
-                      <td colSpan={8} className="px-6 py-4 bg-gray-50">
-                        <div className="space-y-4">
-                          <h4 className="font-semibold text-gray-900 mb-3">
-                            Raw Criterion Scores
-                          </h4>
-                          <div className="grid grid-cols-2 gap-4">
-                            {CRITERION_KEYS.map((key, i) => (
-                              <div key={key} className="flex justify-between items-center">
-                                <span className="text-sm text-gray-700">
-                                  {i + 1}. {getShortName(key)}
-                                </span>
-                                <span className="text-sm font-semibold text-primary">
-                                  {(course[key] as number || 0).toFixed(1)}
+                    <tr key={`expanded-${idx}`} className="bg-gray-50">
+                      <td colSpan={11} className="px-6 py-4">
+                        <div className="grid grid-cols-2 gap-4">
+                          <div>
+                            <h4 className="font-semibold text-gray-900 mb-2">Details</h4>
+                            <div className="space-y-2 text-sm">
+                              <div>
+                                <span className="font-medium text-gray-700">Raw Score:</span>{' '}
+                                <span className="text-gray-900">{course.rawScore.toFixed(2)}</span>
+                              </div>
+                              <div>
+                                <span className="font-medium text-gray-700">Base Score (normalized 0-100):</span>{' '}
+                                <span className="text-gray-900">{course.baseScore.toFixed(2)}</span>
+                              </div>
+                              <div>
+                                <span className="font-medium text-gray-700">Country Modifier:</span>{' '}
+                                <span className={`font-semibold ${
+                                  course.countryModifier > 1 ? 'text-green-600' : 
+                                  course.countryModifier < 1 ? 'text-orange-600' : 
+                                  'text-gray-700'
+                                }`}>
+                                  {course.countryModifier.toFixed(2)}x
                                 </span>
                               </div>
-                            ))}
+                              <div>
+                                <span className="font-medium text-gray-700">Final Score:</span>{' '}
+                                <span className="text-primary font-bold">{course.finalScore.toFixed(2)}</span>
+                              </div>
+                            </div>
                           </div>
-
-                          {course.Notes && (
-                            <div className="mt-4">
-                              <h4 className="font-semibold text-gray-900 mb-2">Notes</h4>
-                              <p className="text-sm text-gray-700">{course.Notes}</p>
-                            </div>
-                          )}
-
-                          {sourceColumns.length > 0 && (
-                            <div className="mt-4">
-                              <h4 className="font-semibold text-gray-900 mb-2">Sources</h4>
-                              <div className="space-y-1">
-                                {sourceColumns.map(col => (
-                                  <div key={col} className="text-sm text-gray-700">
-                                    <span className="font-medium">{col}:</span>{' '}
-                                    {String(course[col])}
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                          )}
+                          <div>
+                            <h4 className="font-semibold text-gray-900 mb-2">Notes</h4>
+                            <p className="text-sm text-gray-700">
+                              {course.Notes || 'No notes available'}
+                            </p>
+                          </div>
                         </div>
                       </td>
                     </tr>
                   )}
-                </React.Fragment>
+                </>
               );
             })}
           </tbody>
         </table>
       </div>
+
+      {sortedCourses.length === 0 && (
+        <div className="text-center py-12 text-gray-500">
+          No courses match your current filters
+        </div>
+      )}
     </div>
   );
 }
-
-// Import React for Fragment
-import React from 'react';
-

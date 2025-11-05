@@ -1,0 +1,1216 @@
+Country,University,City/Region,Course Archetype,Notes,Quality_0_3,Scale_0_3,Employability_0_3,GeoFit_0_2
+Brazil,ITA – Instituto Tecnológico de Aeronáutica,São José dos Campos,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Brazil,ITA – Instituto Tecnológico de Aeronáutica,São José dos Campos,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Brazil,ITA – Instituto Tecnológico de Aeronáutica,São José dos Campos,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Brazil,ITA – Instituto Tecnológico de Aeronáutica,São José dos Campos,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Brazil,ITA – Instituto Tecnológico de Aeronáutica,São José dos Campos,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Brazil,ITA – Instituto Tecnológico de Aeronáutica,São José dos Campos,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Brazil,Insper – CS/DS,São Paulo,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,Insper – CS/DS,São Paulo,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,Insper – CS/DS,São Paulo,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,Insper – CS/DS,São Paulo,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,Insper – CS/DS,São Paulo,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Brazil,Insper – CS/DS,São Paulo,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Brazil,Insper – CS/DS,São Paulo,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,Mackenzie – CC,São Paulo,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,Mackenzie – CC,São Paulo,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Brazil,Mackenzie – CC,São Paulo,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Brazil,Mackenzie – CC,São Paulo,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,Mackenzie – CC,São Paulo,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Brazil,Mackenzie – CC,São Paulo,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Brazil,Mackenzie – CC,São Paulo,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,Mackenzie – CC,São Paulo,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Brazil,PUC-Rio – DI,Rio de Janeiro,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,PUC-Rio – DI,Rio de Janeiro,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,PUC-Rio – DI,Rio de Janeiro,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,PUC-Rio – DI,Rio de Janeiro,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,PUC-Rio – DI,Rio de Janeiro,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Brazil,PUC-Rio – DI,Rio de Janeiro,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Brazil,PUC-Rio – DI,Rio de Janeiro,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,PUC-Rio – DI,Rio de Janeiro,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,PUC-SP – TEC,São Paulo,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,PUC-SP – TEC,São Paulo,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,PUC-SP – TEC,São Paulo,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,PUC-SP – TEC,São Paulo,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,PUC-SP – TEC,São Paulo,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Brazil,PUC-SP – TEC,São Paulo,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Brazil,PUC-SP – TEC,São Paulo,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Brazil,PUC-SP – TEC,São Paulo,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UECE – MATE/COMP,Fortaleza,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UECE – MATE/COMP,Fortaleza,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UECE – MATE/COMP,Fortaleza,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UECE – MATE/COMP,Fortaleza,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UECE – MATE/COMP,Fortaleza,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UECE – MATE/COMP,Fortaleza,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UERJ – IME,Rio de Janeiro,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Brazil,UERJ – IME,Rio de Janeiro,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Brazil,UERJ – IME,Rio de Janeiro,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Brazil,UERJ – IME,Rio de Janeiro,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Brazil,UERJ – IME,Rio de Janeiro,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Brazil,UERJ – IME,Rio de Janeiro,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Brazil,UERJ – IME,Rio de Janeiro,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Brazil,UERJ – IME,Rio de Janeiro,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Brazil,UFABC – CMCC/CECS,Santo André,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFABC – CMCC/CECS,Santo André,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFABC – CMCC/CECS,Santo André,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFABC – CMCC/CECS,Santo André,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFABC – CMCC/CECS,Santo André,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFABC – CMCC/CECS,Santo André,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFAL – IC/Eng,Maceió,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFAL – IC/Eng,Maceió,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFAL – IC/Eng,Maceió,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFAL – IC/Eng,Maceió,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFAL – IC/Eng,Maceió,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFAL – IC/Eng,Maceió,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFBA – DCC,Salvador,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFBA – DCC,Salvador,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFBA – DCC,Salvador,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFBA – DCC,Salvador,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFBA – DCC,Salvador,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Brazil,UFBA – DCC,Salvador,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Brazil,UFBA – DCC,Salvador,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFC – DC/Eng,Fortaleza,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFC – DC/Eng,Fortaleza,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFC – DC/Eng,Fortaleza,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFC – DC/Eng,Fortaleza,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFC – DC/Eng,Fortaleza,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFC – DC/Eng,Fortaleza,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFC – DC/Eng,Fortaleza,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFCG – CEEI,Campina Grande,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFCG – CEEI,Campina Grande,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFCG – CEEI,Campina Grande,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFCG – CEEI,Campina Grande,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFCG – CEEI,Campina Grande,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Brazil,UFCG – CEEI,Campina Grande,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Brazil,UFCG – CEEI,Campina Grande,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFCG – CEEI,Campina Grande,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFES – CCE/Eng,Vitória,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFES – CCE/Eng,Vitória,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFES – CCE/Eng,Vitória,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFES – CCE/Eng,Vitória,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFES – CCE/Eng,Vitória,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFES – CCE/Eng,Vitória,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFES – CCE/Eng,Vitória,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFES – CCE/Eng,Vitória,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFF – TCC/IC,Niterói,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFF – TCC/IC,Niterói,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFF – TCC/IC,Niterói,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFF – TCC/IC,Niterói,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFF – TCC/IC,Niterói,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFF – TCC/IC,Niterói,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFF – TCC/IC,Niterói,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFG – INF/Eng,Goiânia,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFG – INF/Eng,Goiânia,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFG – INF/Eng,Goiânia,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFG – INF/Eng,Goiânia,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFG – INF/Eng,Goiânia,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFG – INF/Eng,Goiânia,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFG – INF/Eng,Goiânia,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFMA – CCSo/Eng,São Luís,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFMA – CCSo/Eng,São Luís,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFMA – CCSo/Eng,São Luís,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFMA – CCSo/Eng,São Luís,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFMA – CCSo/Eng,São Luís,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFMA – CCSo/Eng,São Luís,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFMA – CCSo/Eng,São Luís,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFMG – ICEx/Eng,Belo Horizonte,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFMG – ICEx/Eng,Belo Horizonte,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFMG – ICEx/Eng,Belo Horizonte,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFMG – ICEx/Eng,Belo Horizonte,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFMG – ICEx/Eng,Belo Horizonte,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,UFMG – ICEx/Eng,Belo Horizonte,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,UFMG – ICEx/Eng,Belo Horizonte,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFMG – ICEx/Eng,Belo Horizonte,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFMS – FACOM,Campo Grande,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFMS – FACOM,Campo Grande,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFMS – FACOM,Campo Grande,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFMS – FACOM,Campo Grande,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFMS – FACOM,Campo Grande,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFMS – FACOM,Campo Grande,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFMS – FACOM,Campo Grande,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFMT – IC/Eng,Cuiabá,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFMT – IC/Eng,Cuiabá,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFMT – IC/Eng,Cuiabá,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFMT – IC/Eng,Cuiabá,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFMT – IC/Eng,Cuiabá,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFMT – IC/Eng,Cuiabá,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFMT – IC/Eng,Cuiabá,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFOP – ICEB,Ouro Preto,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFOP – ICEB,Ouro Preto,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFOP – ICEB,Ouro Preto,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFOP – ICEB,Ouro Preto,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFOP – ICEB,Ouro Preto,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFOP – ICEB,Ouro Preto,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFOP – ICEB,Ouro Preto,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFPA – IComp,Belém,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFPA – IComp,Belém,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFPA – IComp,Belém,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFPA – IComp,Belém,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFPA – IComp,Belém,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFPA – IComp,Belém,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFPB – CCT/CCEN,João Pessoa,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFPB – CCT/CCEN,João Pessoa,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFPB – CCT/CCEN,João Pessoa,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFPB – CCT/CCEN,João Pessoa,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFPB – CCT/CCEN,João Pessoa,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Brazil,UFPB – CCT/CCEN,João Pessoa,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Brazil,UFPB – CCT/CCEN,João Pessoa,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFPE – CIn,Recife,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,UFPE – CIn,Recife,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Brazil,UFPE – CIn,Recife,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Brazil,UFPE – CIn,Recife,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,UFPE – CIn,Recife,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Brazil,UFPE – CIn,Recife,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Brazil,UFPE – CIn,Recife,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,UFPE – CIn,Recife,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Brazil,UFPR – DInf,Curitiba,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,UFPR – DInf,Curitiba,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Brazil,UFPR – DInf,Curitiba,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Brazil,UFPR – DInf,Curitiba,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Brazil,UFPR – DInf,Curitiba,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Brazil,UFPR – DInf,Curitiba,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,UFRGS – INF/Eng,Porto Alegre,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRGS – INF/Eng,Porto Alegre,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRGS – INF/Eng,Porto Alegre,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRGS – INF/Eng,Porto Alegre,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRGS – INF/Eng,Porto Alegre,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,UFRGS – INF/Eng,Porto Alegre,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,UFRGS – INF/Eng,Porto Alegre,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRGS – INF/Eng,Porto Alegre,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRJ – IM/Eng,Rio de Janeiro,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRJ – IM/Eng,Rio de Janeiro,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRJ – IM/Eng,Rio de Janeiro,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRJ – IM/Eng,Rio de Janeiro,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRJ – IM/Eng,Rio de Janeiro,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,UFRJ – IM/Eng,Rio de Janeiro,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,UFRJ – IM/Eng,Rio de Janeiro,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRJ – IM/Eng,Rio de Janeiro,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UFRN – DIMAp/Eng,Natal,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFRN – DIMAp/Eng,Natal,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFRN – DIMAp/Eng,Natal,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFRN – DIMAp/Eng,Natal,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFRN – DIMAp/Eng,Natal,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Brazil,UFRN – DIMAp/Eng,Natal,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Brazil,UFRN – DIMAp/Eng,Natal,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFRN – DIMAp/Eng,Natal,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Brazil,UFRPE – UACSA,Recife,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Brazil,UFRPE – UACSA,Recife,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Brazil,UFRPE – UACSA,Recife,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Brazil,UFRPE – UACSA,Recife,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Brazil,UFRPE – UACSA,Recife,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Brazil,UFRPE – UACSA,Recife,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Brazil,UFRPE – UACSA,Recife,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Brazil,UFRPE – UACSA,Recife,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Brazil,UFS – DCOMP,Aracaju,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFS – DCOMP,Aracaju,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFS – DCOMP,Aracaju,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFS – DCOMP,Aracaju,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFS – DCOMP,Aracaju,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFS – DCOMP,Aracaju,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFS – DCOMP,Aracaju,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFSC – CTC/INE,Florianópolis,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Brazil,UFSC – CTC/INE,Florianópolis,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Brazil,UFSC – CTC/INE,Florianópolis,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Brazil,UFSC – CTC/INE,Florianópolis,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Brazil,UFSC – CTC/INE,Florianópolis,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Brazil,UFSC – CTC/INE,Florianópolis,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Brazil,UFSCar – DC/UFSCar,São Carlos,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFSCar – DC/UFSCar,São Carlos,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFSCar – DC/UFSCar,São Carlos,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFSCar – DC/UFSCar,São Carlos,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFSCar – DC/UFSCar,São Carlos,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFSCar – DC/UFSCar,São Carlos,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFSCar – DC/UFSCar,São Carlos,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFSCar – DC/UFSCar,São Carlos,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFSM – CT/CCNE,Santa Maria,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFSM – CT/CCNE,Santa Maria,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFSM – CT/CCNE,Santa Maria,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Brazil,UFSM – CT/CCNE,Santa Maria,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFSM – CT/CCNE,Santa Maria,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFSM – CT/CCNE,Santa Maria,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Brazil,UFSM – CT/CCNE,Santa Maria,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Brazil,UFU – FACOM,Uberlândia,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UFU – FACOM,Uberlândia,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFU – FACOM,Uberlândia,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Brazil,UFU – FACOM,Uberlândia,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFU – FACOM,Uberlândia,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Brazil,UFU – FACOM,Uberlândia,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Brazil,UNESP – FEIS/IBILCE,Bauru/SJRP,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Brazil,UNESP – FEIS/IBILCE,Bauru/SJRP,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Brazil,UNESP – FEIS/IBILCE,Bauru/SJRP,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Brazil,UNESP – FEIS/IBILCE,Bauru/SJRP,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Brazil,UNESP – FEIS/IBILCE,Bauru/SJRP,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Brazil,UNESP – FEIS/IBILCE,Bauru/SJRP,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Brazil,UNESP – FEIS/IBILCE,Bauru/SJRP,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Brazil,UNESP – FEIS/IBILCE,Bauru/SJRP,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Brazil,UNICAMP – IC/IMECC/FEEC,Campinas,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UNICAMP – IC/IMECC/FEEC,Campinas,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UNICAMP – IC/IMECC/FEEC,Campinas,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UNICAMP – IC/IMECC/FEEC,Campinas,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UNICAMP – IC/IMECC/FEEC,Campinas,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,UNICAMP – IC/IMECC/FEEC,Campinas,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,UNICAMP – IC/IMECC/FEEC,Campinas,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,USP – IME/Poli,São Paulo,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,USP – IME/Poli,São Paulo,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,USP – IME/Poli,São Paulo,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,USP – IME/Poli,São Paulo,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,USP – IME/Poli,São Paulo,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Brazil,USP – IME/Poli,São Paulo,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Brazil,UnB – CIC/Eng,Brasília,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Brazil,UnB – CIC/Eng,Brasília,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,UnB – CIC/Eng,Brasília,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Brazil,UnB – CIC/Eng,Brasília,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Brazil,UnB – CIC/Eng,Brasília,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Brazil,UnB – CIC/Eng,Brasília,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Mexico,BUAP – Facultad de Ciencias,Puebla,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,BUAP – Facultad de Ciencias,Puebla,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,BUAP – Facultad de Ciencias,Puebla,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,BUAP – Facultad de Ciencias,Puebla,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Mexico,BUAP – Facultad de Ciencias,Puebla,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,BUAP – Facultad de Ciencias,Puebla,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Mexico,BUAP – Facultad de Ciencias,Puebla,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,CINVESTAV – Computación,CDMX,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,CINVESTAV – Computación,CDMX,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Mexico,CINVESTAV – Computación,CDMX,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Mexico,CINVESTAV – Computación,CDMX,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,CINVESTAV – Computación,CDMX,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Mexico,CINVESTAV – Computación,CDMX,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,IBERO – Universidad Iberoamericana,CDMX,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,IBERO – Universidad Iberoamericana,CDMX,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Mexico,IBERO – Universidad Iberoamericana,CDMX,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Mexico,IBERO – Universidad Iberoamericana,CDMX,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Mexico,IBERO – Universidad Iberoamericana,CDMX,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,IBERO – Universidad Iberoamericana,CDMX,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Mexico,IBERO – Universidad Iberoamericana,CDMX,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,IPN – ESCOM/ESFM,Ciudad de México,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,IPN – ESCOM/ESFM,Ciudad de México,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,IPN – ESCOM/ESFM,Ciudad de México,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,IPN – ESCOM/ESFM,Ciudad de México,Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Mexico,IPN – ESCOM/ESFM,Ciudad de México,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,IPN – ESCOM/ESFM,Ciudad de México,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Mexico,IPN – ESCOM/ESFM,Ciudad de México,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,IPN – ESCOM/ESFM,Ciudad de México,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,ITAM – Computación/Economía,Ciudad de México,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,ITAM – Computación/Economía,Ciudad de México,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,ITAM – Computación/Economía,Ciudad de México,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,ITAM – Computación/Economía,Ciudad de México,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Mexico,ITAM – Computación/Economía,Ciudad de México,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,ITAM – Computación/Economía,Ciudad de México,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Mexico,ITAM – Computación/Economía,Ciudad de México,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,ITESM – Querétaro,Querétaro,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,ITESM – Querétaro,Querétaro,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Mexico,ITESM – Querétaro,Querétaro,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Mexico,ITESM – Querétaro,Querétaro,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Mexico,ITESM – Querétaro,Querétaro,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,ITESM – Querétaro,Querétaro,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Mexico,ITESM – Querétaro,Querétaro,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,ITESO – Sistemas,Guadalajara,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Mexico,ITESO – Sistemas,Guadalajara,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Mexico,ITESO – Sistemas,Guadalajara,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Mexico,ITESO – Sistemas,Guadalajara,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Mexico,ITESO – Sistemas,Guadalajara,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Mexico,ITESO – Sistemas,Guadalajara,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Mexico,ITESO – Sistemas,Guadalajara,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Mexico,ITESO – Sistemas,Guadalajara,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Mexico,La Salle – Ingeniería,Ciudad de México,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,La Salle – Ingeniería,Ciudad de México,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,La Salle – Ingeniería,Ciudad de México,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,La Salle – Ingeniería,Ciudad de México,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,La Salle – Ingeniería,Ciudad de México,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Mexico,La Salle – Ingeniería,Ciudad de México,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,TecNM – Tecnológico Nacional de México,Várias cidades,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,TecNM – Tecnológico Nacional de México,Várias cidades,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Mexico,TecNM – Tecnológico Nacional de México,Várias cidades,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Mexico,TecNM – Tecnológico Nacional de México,Várias cidades,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Mexico,TecNM – Tecnológico Nacional de México,Várias cidades,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,TecNM – Tecnológico Nacional de México,Várias cidades,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Mexico,TecNM – Tecnológico Nacional de México,Várias cidades,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,Tecnológico de Monterrey (ITESM),Monterrey/CDMX,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,Tecnológico de Monterrey (ITESM),Monterrey/CDMX,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,Tecnológico de Monterrey (ITESM),Monterrey/CDMX,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,Tecnológico de Monterrey (ITESM),Monterrey/CDMX,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,Tecnológico de Monterrey (ITESM),Monterrey/CDMX,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Mexico,Tecnológico de Monterrey (ITESM),Monterrey/CDMX,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UABC – Facultad de Ingeniería,Mexicali/Tijuana,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Mexico,UABC – Facultad de Ingeniería,Mexicali/Tijuana,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Mexico,UABC – Facultad de Ingeniería,Mexicali/Tijuana,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Mexico,UABC – Facultad de Ingeniería,Mexicali/Tijuana,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Mexico,UABC – Facultad de Ingeniería,Mexicali/Tijuana,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Mexico,UABC – Facultad de Ingeniería,Mexicali/Tijuana,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Mexico,UABC – Facultad de Ingeniería,Mexicali/Tijuana,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Mexico,UABC – Facultad de Ingeniería,Mexicali/Tijuana,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Mexico,UADY – Matemáticas/Ingeniería,Mérida,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UADY – Matemáticas/Ingeniería,Mérida,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Mexico,UADY – Matemáticas/Ingeniería,Mérida,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Mexico,UADY – Matemáticas/Ingeniería,Mérida,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Mexico,UADY – Matemáticas/Ingeniería,Mérida,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UADY – Matemáticas/Ingeniería,Mérida,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Mexico,UADY – Matemáticas/Ingeniería,Mérida,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UAEMex – UAEM,Toluca,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UAEMex – UAEM,Toluca,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UAEMex – UAEM,Toluca,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UAEMex – UAEM,Toluca,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Mexico,UAEMex – UAEM,Toluca,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UAEMex – UAEM,Toluca,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Mexico,UAEMex – UAEM,Toluca,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UAEMex – UAEM,Toluca,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UAM – Iztapalapa/Azcapotzalco,Ciudad de México,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UAM – Iztapalapa/Azcapotzalco,Ciudad de México,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UAM – Iztapalapa/Azcapotzalco,Ciudad de México,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UAM – Iztapalapa/Azcapotzalco,Ciudad de México,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Mexico,UAM – Iztapalapa/Azcapotzalco,Ciudad de México,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UAM – Iztapalapa/Azcapotzalco,Ciudad de México,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Mexico,UAM – Iztapalapa/Azcapotzalco,Ciudad de México,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UAM – Iztapalapa/Azcapotzalco,Ciudad de México,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UAM – Xochimilco,CDMX,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UAM – Xochimilco,CDMX,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UAM – Xochimilco,CDMX,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UAM – Xochimilco,CDMX,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Mexico,UAM – Xochimilco,CDMX,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UAM – Xochimilco,CDMX,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Mexico,UAM – Xochimilco,CDMX,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UAM – Xochimilco,CDMX,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UANL – FIME/FCFM,Monterrey,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UANL – FIME/FCFM,Monterrey,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UANL – FIME/FCFM,Monterrey,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UANL – FIME/FCFM,Monterrey,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Mexico,UANL – FIME/FCFM,Monterrey,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UANL – FIME/FCFM,Monterrey,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Mexico,UANL – FIME/FCFM,Monterrey,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UANL – FIME/FCFM,Monterrey,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UASLP – Ingeniería y Ciencias,San Luis Potosí,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UASLP – Ingeniería y Ciencias,San Luis Potosí,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UASLP – Ingeniería y Ciencias,San Luis Potosí,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UASLP – Ingeniería y Ciencias,San Luis Potosí,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Mexico,UASLP – Ingeniería y Ciencias,San Luis Potosí,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UASLP – Ingeniería y Ciencias,San Luis Potosí,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Mexico,UASLP – Ingeniería y Ciencias,San Luis Potosí,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UASLP – Ingeniería y Ciencias,San Luis Potosí,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UDEM – Ingeniería,Monterrey,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,UDEM – Ingeniería,Monterrey,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,UDEM – Ingeniería,Monterrey,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,UDEM – Ingeniería,Monterrey,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Mexico,UDEM – Ingeniería,Monterrey,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,UDEM – Ingeniería,Monterrey,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Mexico,UDEM – Ingeniería,Monterrey,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,UDG – CUCEI,Guadalajara,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UDG – CUCEI,Guadalajara,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UDG – CUCEI,Guadalajara,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UDG – CUCEI,Guadalajara,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UDG – CUCEI,Guadalajara,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Mexico,UDG – CUCEI,Guadalajara,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Mexico,UDLAP – Ciencias de la Computación,Cholula,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,UDLAP – Ciencias de la Computación,Cholula,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Mexico,UDLAP – Ciencias de la Computación,Cholula,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Mexico,UDLAP – Ciencias de la Computación,Cholula,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Mexico,UDLAP – Ciencias de la Computación,Cholula,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,UDLAP – Ciencias de la Computación,Cholula,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Mexico,UDLAP – Ciencias de la Computación,Cholula,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Mexico,UNAM – Ciencias/Ing.,Ciudad de México,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UNAM – Ciencias/Ing.,Ciudad de México,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UNAM – Ciencias/Ing.,Ciudad de México,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UNAM – Ciencias/Ing.,Ciudad de México,Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Mexico,UNAM – Ciencias/Ing.,Ciudad de México,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UNAM – Ciencias/Ing.,Ciudad de México,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Mexico,UNAM – Ciencias/Ing.,Ciudad de México,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UNAM – Ciencias/Ing.,Ciudad de México,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Mexico,UPAEP – Ingeniería,Puebla,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,UPAEP – Ingeniería,Puebla,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,UPAEP – Ingeniería,Puebla,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,UPAEP – Ingeniería,Puebla,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Mexico,UPAEP – Ingeniería,Puebla,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,UPAEP – Ingeniería,Puebla,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Mexico,UPAEP – Ingeniería,Puebla,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,UPAEP – Ingeniería,Puebla,Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,UV – Universidad Veracruzana,Xalapa,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UV – Universidad Veracruzana,Xalapa,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UV – Universidad Veracruzana,Xalapa,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Mexico,UV – Universidad Veracruzana,Xalapa,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Mexico,UV – Universidad Veracruzana,Xalapa,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UV – Universidad Veracruzana,Xalapa,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Mexico,UV – Universidad Veracruzana,Xalapa,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Mexico,UdeG – CUCEA,Guadalajara,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,UdeG – CUCEA,Guadalajara,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,UdeG – CUCEA,Guadalajara,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Mexico,UdeG – CUCEA,Guadalajara,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,UdeG – CUCEA,Guadalajara,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Mexico,UdeG – CUCEA,Guadalajara,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Mexico,Universidad Panamericana (UP),CDMX/Guadalajara,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Mexico,Universidad Panamericana (UP),CDMX/Guadalajara,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Mexico,Universidad Panamericana (UP),CDMX/Guadalajara,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Mexico,Universidad Panamericana (UP),CDMX/Guadalajara,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Mexico,Universidad Panamericana (UP),CDMX/Guadalajara,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Mexico,Universidad Panamericana (UP),CDMX/Guadalajara,Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Mexico,Universidad Panamericana (UP),CDMX/Guadalajara,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,EAFIT – Ingeniería,Medellín,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,EAFIT – Ingeniería,Medellín,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,EAFIT – Ingeniería,Medellín,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,EAFIT – Ingeniería,Medellín,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Colombia,EAFIT – Ingeniería,Medellín,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Colombia,EAFIT – Ingeniería,Medellín,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Colombia,Escuela Colombiana de Ingeniería,Bogotá,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Escuela Colombiana de Ingeniería,Bogotá,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Colombia,Escuela Colombiana de Ingeniería,Bogotá,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Escuela Colombiana de Ingeniería,Bogotá,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Escuela Colombiana de Ingeniería,Bogotá,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Colombia,Escuela Colombiana de Ingeniería,Bogotá,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Colombia,Escuela Colombiana de Ingeniería,Bogotá,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Colombia,Pontificia Universidad Javeriana,Bogotá/Cali,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Pontificia Universidad Javeriana,Bogotá/Cali,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Pontificia Universidad Javeriana,Bogotá/Cali,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Pontificia Universidad Javeriana,Bogotá/Cali,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Pontificia Universidad Javeriana,Bogotá/Cali,Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Colombia,Pontificia Universidad Javeriana,Bogotá/Cali,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Pontificia Universidad Javeriana,Bogotá/Cali,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Colombia,UIS – Industrial de Santander,Bucaramanga,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Colombia,UIS – Industrial de Santander,Bucaramanga,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,UIS – Industrial de Santander,Bucaramanga,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Colombia,UIS – Industrial de Santander,Bucaramanga,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Colombia,UIS – Industrial de Santander,Bucaramanga,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Colombia,UIS – Industrial de Santander,Bucaramanga,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,UIS – Industrial de Santander,Bucaramanga,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Colombia,UIS – Industrial de Santander,Bucaramanga,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,UNAL – Universidad Nacional de Colombia,Bogotá/Medellín,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,UNAL – Universidad Nacional de Colombia,Bogotá/Medellín,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,UNAL – Universidad Nacional de Colombia,Bogotá/Medellín,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,UNAL – Universidad Nacional de Colombia,Bogotá/Medellín,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,UNAL – Universidad Nacional de Colombia,Bogotá/Medellín,Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Colombia,UNAL – Universidad Nacional de Colombia,Bogotá/Medellín,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,UNAL – Universidad Nacional de Colombia,Bogotá/Medellín,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Colombia,UNAL – Universidad Nacional de Colombia,Bogotá/Medellín,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,UPB – Bolivariana,Medellín,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Colombia,UPB – Bolivariana,Medellín,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,UPB – Bolivariana,Medellín,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Colombia,UPB – Bolivariana,Medellín,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Colombia,UPB – Bolivariana,Medellín,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Colombia,UPB – Bolivariana,Medellín,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,UPB – Bolivariana,Medellín,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Colombia,UTP – Tecnológica de Pereira,Pereira,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,UTP – Tecnológica de Pereira,Pereira,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Colombia,UTP – Tecnológica de Pereira,Pereira,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,UTP – Tecnológica de Pereira,Pereira,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,UTP – Tecnológica de Pereira,Pereira,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Colombia,UTP – Tecnológica de Pereira,Pereira,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Colombia,UTP – Tecnológica de Pereira,Pereira,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Colombia,Universidad Autónoma de Bucaramanga,Bucaramanga,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad Autónoma de Bucaramanga,Bucaramanga,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Colombia,Universidad Autónoma de Bucaramanga,Bucaramanga,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad Autónoma de Bucaramanga,Bucaramanga,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad Autónoma de Bucaramanga,Bucaramanga,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Colombia,Universidad Autónoma de Bucaramanga,Bucaramanga,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Colombia,Universidad Autónoma de Bucaramanga,Bucaramanga,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Colombia,Universidad Autónoma de Bucaramanga,Bucaramanga,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Colombia,Universidad Autónoma de Occidente,Cali,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Colombia,Universidad Autónoma de Occidente,Cali,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Colombia,Universidad Autónoma de Occidente,Cali,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Colombia,Universidad Autónoma de Occidente,Cali,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Colombia,Universidad Autónoma de Occidente,Cali,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Colombia,Universidad Autónoma de Occidente,Cali,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Colombia,Universidad EIA,Envigado,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad EIA,Envigado,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad EIA,Envigado,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad EIA,Envigado,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Colombia,Universidad EIA,Envigado,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Colombia,Universidad EIA,Envigado,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Colombia,Universidad Externado de Colombia,Bogotá,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Colombia,Universidad Externado de Colombia,Bogotá,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Colombia,Universidad Externado de Colombia,Bogotá,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Colombia,Universidad Externado de Colombia,Bogotá,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Colombia,Universidad Externado de Colombia,Bogotá,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Colombia,Universidad Externado de Colombia,Bogotá,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Colombia,Universidad Externado de Colombia,Bogotá,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Colombia,Universidad Externado de Colombia,Bogotá,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Colombia,Universidad ICESI,Cali,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Universidad ICESI,Cali,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Colombia,Universidad ICESI,Cali,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Universidad ICESI,Cali,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Universidad ICESI,Cali,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Colombia,Universidad ICESI,Cali,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Colombia,Universidad ICESI,Cali,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Colombia,Universidad ICESI,Cali,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Colombia,Universidad Nacional – Manizales,Manizales,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad Nacional – Manizales,Manizales,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad Nacional – Manizales,Manizales,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad Nacional – Manizales,Manizales,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Colombia,Universidad Nacional – Manizales,Manizales,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Colombia,Universidad Nacional – Manizales,Manizales,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Colombia,Universidad de Antioquia,Medellín,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad de Antioquia,Medellín,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Colombia,Universidad de Antioquia,Medellín,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad de Antioquia,Medellín,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad de Antioquia,Medellín,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Colombia,Universidad de Antioquia,Medellín,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Colombia,Universidad de Antioquia,Medellín,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Colombia,Universidad de Antioquia,Medellín,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Colombia,Universidad de Caldas,Manizales,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad de Caldas,Manizales,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Colombia,Universidad de Caldas,Manizales,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad de Caldas,Manizales,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Colombia,Universidad de Caldas,Manizales,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Colombia,Universidad de Caldas,Manizales,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Colombia,Universidad de Caldas,Manizales,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Colombia,Universidad de Caldas,Manizales,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Colombia,Universidad de la Sabana,Chía,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Colombia,Universidad de la Sabana,Chía,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,Universidad de la Sabana,Chía,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Colombia,Universidad de la Sabana,Chía,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Colombia,Universidad de la Sabana,Chía,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Colombia,Universidad de la Sabana,Chía,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,Universidad de la Sabana,Chía,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Colombia,Universidad de la Sabana,Chía,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Colombia,Universidad de los Andes – Ingeniería/Ciencias,Bogotá,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad de los Andes – Ingeniería/Ciencias,Bogotá,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad de los Andes – Ingeniería/Ciencias,Bogotá,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad de los Andes – Ingeniería/Ciencias,Bogotá,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad de los Andes – Ingeniería/Ciencias,Bogotá,Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Colombia,Universidad de los Andes – Ingeniería/Ciencias,Bogotá,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad de los Andes – Ingeniería/Ciencias,Bogotá,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Colombia,Universidad de los Andes – Ingeniería/Ciencias,Bogotá,Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad del Norte,Barranquilla,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Colombia,Universidad del Norte,Barranquilla,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Universidad del Norte,Barranquilla,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Colombia,Universidad del Norte,Barranquilla,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Colombia,Universidad del Norte,Barranquilla,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Colombia,Universidad del Norte,Barranquilla,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Universidad del Norte,Barranquilla,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Colombia,Universidad del Rosario,Bogotá,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Universidad del Rosario,Bogotá,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Colombia,Universidad del Rosario,Bogotá,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Universidad del Rosario,Bogotá,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Colombia,Universidad del Rosario,Bogotá,Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Colombia,Universidad del Rosario,Bogotá,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Colombia,Universidad del Rosario,Bogotá,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Colombia,Universidad del Valle – Ingeniería,Cali,Business Analytics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad del Valle – Ingeniería,Cali,Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Colombia,Universidad del Valle – Ingeniería,Cali,Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad del Valle – Ingeniería,Cali,Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Colombia,Universidad del Valle – Ingeniería,Cali,Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Colombia,Universidad del Valle – Ingeniería,Cali,Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Colombia,Universidad del Valle – Ingeniería,Cali,Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+United States,Arizona State University,"Tempe, AZ",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Arizona State University,"Tempe, AZ",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Arizona State University,"Tempe, AZ",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Arizona State University,"Tempe, AZ",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+United States,Arizona State University,"Tempe, AZ",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Arizona State University,"Tempe, AZ",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Arizona State University,"Tempe, AZ",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Auburn University,"Auburn, AL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Auburn University,"Auburn, AL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Auburn University,"Auburn, AL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Auburn University,"Auburn, AL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Auburn University,"Auburn, AL",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Auburn University,"Auburn, AL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Auburn University,"Auburn, AL",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Boston University,"Boston, MA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+United States,Boston University,"Boston, MA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,Boston University,"Boston, MA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,Boston University,"Boston, MA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+United States,Boston University,"Boston, MA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+United States,Boston University,"Boston, MA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,Brown University,"Providence, RI",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Brown University,"Providence, RI",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Brown University,"Providence, RI",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Brown University,"Providence, RI",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Brown University,"Providence, RI",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+United States,Brown University,"Providence, RI",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Brown University,"Providence, RI",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Brown University,"Providence, RI",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Caltech,"Pasadena, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Caltech,"Pasadena, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Caltech,"Pasadena, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Caltech,"Pasadena, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,Caltech,"Pasadena, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Caltech,"Pasadena, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Caltech,"Pasadena, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Carnegie Mellon University,"Pittsburgh, PA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Carnegie Mellon University,"Pittsburgh, PA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Carnegie Mellon University,"Pittsburgh, PA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Carnegie Mellon University,"Pittsburgh, PA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Carnegie Mellon University,"Pittsburgh, PA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,1
+United States,Carnegie Mellon University,"Pittsburgh, PA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Carnegie Mellon University,"Pittsburgh, PA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Carnegie Mellon University,"Pittsburgh, PA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Columbia University,"New York, NY",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+United States,Columbia University,"New York, NY",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Columbia University,"New York, NY",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Columbia University,"New York, NY",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Columbia University,"New York, NY",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+United States,Columbia University,"New York, NY",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+United States,Columbia University,"New York, NY",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+United States,Columbia University,"New York, NY",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Cornell University,"Ithaca, NY",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Cornell University,"Ithaca, NY",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Cornell University,"Ithaca, NY",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Cornell University,"Ithaca, NY",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+United States,Cornell University,"Ithaca, NY",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Cornell University,"Ithaca, NY",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Cornell University,"Ithaca, NY",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Drexel University,"Philadelphia, PA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Drexel University,"Philadelphia, PA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Drexel University,"Philadelphia, PA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Drexel University,"Philadelphia, PA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Drexel University,"Philadelphia, PA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Drexel University,"Philadelphia, PA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Drexel University,"Philadelphia, PA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Drexel University,"Philadelphia, PA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Duke University,"Durham, NC",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Duke University,"Durham, NC",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Duke University,"Durham, NC",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Duke University,"Durham, NC",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Duke University,"Durham, NC",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,Duke University,"Durham, NC",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Duke University,"Durham, NC",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Duke University,"Durham, NC",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,George Mason University,"Fairfax, VA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,George Mason University,"Fairfax, VA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,George Mason University,"Fairfax, VA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,George Mason University,"Fairfax, VA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,George Mason University,"Fairfax, VA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,George Mason University,"Fairfax, VA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,George Mason University,"Fairfax, VA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,George Mason University,"Fairfax, VA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Georgia Tech,"Atlanta, GA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Georgia Tech,"Atlanta, GA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Georgia Tech,"Atlanta, GA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Georgia Tech,"Atlanta, GA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Georgia Tech,"Atlanta, GA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Georgia Tech,"Atlanta, GA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Harvard University,"Cambridge, MA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Harvard University,"Cambridge, MA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Harvard University,"Cambridge, MA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Harvard University,"Cambridge, MA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Harvard University,"Cambridge, MA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Harvard University,"Cambridge, MA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Indiana University,"Bloomington, IN",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Indiana University,"Bloomington, IN",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Indiana University,"Bloomington, IN",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Indiana University,"Bloomington, IN",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Indiana University,"Bloomington, IN",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+United States,Indiana University,"Bloomington, IN",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Indiana University,"Bloomington, IN",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Indiana University,"Bloomington, IN",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Iowa State University,"Ames, IA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Iowa State University,"Ames, IA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Iowa State University,"Ames, IA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Iowa State University,"Ames, IA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Iowa State University,"Ames, IA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Iowa State University,"Ames, IA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Iowa State University,"Ames, IA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Iowa State University,"Ames, IA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Johns Hopkins University,"Baltimore, MD",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Johns Hopkins University,"Baltimore, MD",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Johns Hopkins University,"Baltimore, MD",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Johns Hopkins University,"Baltimore, MD",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Johns Hopkins University,"Baltimore, MD",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Johns Hopkins University,"Baltimore, MD",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Johns Hopkins University,"Baltimore, MD",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,LSU,"Baton Rouge, LA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,LSU,"Baton Rouge, LA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,LSU,"Baton Rouge, LA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,LSU,"Baton Rouge, LA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,LSU,"Baton Rouge, LA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,LSU,"Baton Rouge, LA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,LSU,"Baton Rouge, LA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,MIT,"Cambridge, MA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,MIT,"Cambridge, MA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,MIT,"Cambridge, MA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,MIT,"Cambridge, MA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,MIT,"Cambridge, MA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,MIT,"Cambridge, MA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Michigan State University,"East Lansing, MI",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Michigan State University,"East Lansing, MI",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Michigan State University,"East Lansing, MI",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Michigan State University,"East Lansing, MI",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Michigan State University,"East Lansing, MI",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Michigan State University,"East Lansing, MI",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Michigan State University,"East Lansing, MI",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,NC State,"Raleigh, NC",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,NC State,"Raleigh, NC",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,NC State,"Raleigh, NC",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,NC State,"Raleigh, NC",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,NC State,"Raleigh, NC",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,NC State,"Raleigh, NC",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,NC State,"Raleigh, NC",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,NC State,"Raleigh, NC",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,NYU,"New York, NY",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,NYU,"New York, NY",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+United States,NYU,"New York, NY",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+United States,NYU,"New York, NY",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+United States,NYU,"New York, NY",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+United States,NYU,"New York, NY",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,NYU,"New York, NY",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,NYU,"New York, NY",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+United States,Northeastern University,"Boston, MA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,Northeastern University,"Boston, MA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+United States,Northeastern University,"Boston, MA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+United States,Northeastern University,"Boston, MA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+United States,Northeastern University,"Boston, MA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,Northeastern University,"Boston, MA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,Northeastern University,"Boston, MA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+United States,Northwestern University,"Evanston, IL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Northwestern University,"Evanston, IL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Northwestern University,"Evanston, IL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Northwestern University,"Evanston, IL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Northwestern University,"Evanston, IL",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Northwestern University,"Evanston, IL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Northwestern University,"Evanston, IL",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Notre Dame,"Notre Dame, IN",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Notre Dame,"Notre Dame, IN",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Notre Dame,"Notre Dame, IN",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Notre Dame,"Notre Dame, IN",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Notre Dame,"Notre Dame, IN",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Notre Dame,"Notre Dame, IN",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Notre Dame,"Notre Dame, IN",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Notre Dame,"Notre Dame, IN",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Ohio State University,"Columbus, OH",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Ohio State University,"Columbus, OH",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Ohio State University,"Columbus, OH",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Ohio State University,"Columbus, OH",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,Ohio State University,"Columbus, OH",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Ohio State University,"Columbus, OH",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Ohio State University,"Columbus, OH",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Penn State University,"University Park, PA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Penn State University,"University Park, PA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Penn State University,"University Park, PA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Penn State University,"University Park, PA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,Penn State University,"University Park, PA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Penn State University,"University Park, PA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Penn State University,"University Park, PA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Princeton University,"Princeton, NJ",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Princeton University,"Princeton, NJ",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Princeton University,"Princeton, NJ",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Princeton University,"Princeton, NJ",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Princeton University,"Princeton, NJ",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Princeton University,"Princeton, NJ",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Purdue University,"West Lafayette, IN",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Purdue University,"West Lafayette, IN",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Purdue University,"West Lafayette, IN",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Purdue University,"West Lafayette, IN",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+United States,Purdue University,"West Lafayette, IN",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Purdue University,"West Lafayette, IN",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Purdue University,"West Lafayette, IN",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,RPI,"Troy, NY",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,RPI,"Troy, NY",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,RPI,"Troy, NY",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,RPI,"Troy, NY",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,RPI,"Troy, NY",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,RPI,"Troy, NY",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Rutgers University,"New Brunswick, NJ",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Rutgers University,"New Brunswick, NJ",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Rutgers University,"New Brunswick, NJ",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Rutgers University,"New Brunswick, NJ",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,Rutgers University,"New Brunswick, NJ",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Rutgers University,"New Brunswick, NJ",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Rutgers University,"New Brunswick, NJ",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Stanford University,"Stanford, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Stanford University,"Stanford, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Stanford University,"Stanford, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Stanford University,"Stanford, CA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Stanford University,"Stanford, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,1
+United States,Stanford University,"Stanford, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Stanford University,"Stanford, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Stanford University,"Stanford, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Temple University,"Philadelphia, PA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Temple University,"Philadelphia, PA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Temple University,"Philadelphia, PA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Temple University,"Philadelphia, PA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Temple University,"Philadelphia, PA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Temple University,"Philadelphia, PA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Temple University,"Philadelphia, PA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Temple University,"Philadelphia, PA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Texas A&M University,"College Station, TX",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Texas A&M University,"College Station, TX",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Texas A&M University,"College Station, TX",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Texas A&M University,"College Station, TX",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Texas A&M University,"College Station, TX",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,Texas A&M University,"College Station, TX",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,U Maryland (UMD),"College Park, MD",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,U Maryland (UMD),"College Park, MD",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,U Maryland (UMD),"College Park, MD",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,U Maryland (UMD),"College Park, MD",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,U Maryland (UMD),"College Park, MD",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+United States,U Maryland (UMD),"College Park, MD",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,U Maryland (UMD),"College Park, MD",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,U Maryland (UMD),"College Park, MD",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UC Berkeley,"Berkeley, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UC Berkeley,"Berkeley, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UC Berkeley,"Berkeley, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UC Berkeley,"Berkeley, CA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UC Berkeley,"Berkeley, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+United States,UC Berkeley,"Berkeley, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UC Berkeley,"Berkeley, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UC Berkeley,"Berkeley, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UC Davis,"Davis, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Davis,"Davis, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UC Davis,"Davis, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UC Davis,"Davis, CA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UC Davis,"Davis, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,UC Davis,"Davis, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Davis,"Davis, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Davis,"Davis, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UC Irvine,"Irvine, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Irvine,"Irvine, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UC Irvine,"Irvine, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UC Irvine,"Irvine, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,UC Irvine,"Irvine, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Irvine,"Irvine, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Irvine,"Irvine, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UC Riverside,"Riverside, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UC Riverside,"Riverside, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UC Riverside,"Riverside, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UC Riverside,"Riverside, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,UC Riverside,"Riverside, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UC Riverside,"Riverside, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UC Riverside,"Riverside, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UC San Diego,"La Jolla, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UC San Diego,"La Jolla, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UC San Diego,"La Jolla, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UC San Diego,"La Jolla, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,1
+United States,UC San Diego,"La Jolla, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UC San Diego,"La Jolla, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UC San Diego,"La Jolla, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UC Santa Barbara,"Santa Barbara, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,UC Santa Barbara,"Santa Barbara, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Santa Barbara,"Santa Barbara, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Santa Barbara,"Santa Barbara, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+United States,UC Santa Barbara,"Santa Barbara, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,UC Santa Barbara,"Santa Barbara, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,UC Santa Barbara,"Santa Barbara, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UC Santa Cruz,"Santa Cruz, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UC Santa Cruz,"Santa Cruz, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UC Santa Cruz,"Santa Cruz, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UC Santa Cruz,"Santa Cruz, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UC Santa Cruz,"Santa Cruz, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UC Santa Cruz,"Santa Cruz, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UCF,"Orlando, FL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UCF,"Orlando, FL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UCF,"Orlando, FL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UCF,"Orlando, FL",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UCF,"Orlando, FL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,UCF,"Orlando, FL",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UCLA,"Los Angeles, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UCLA,"Los Angeles, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UCLA,"Los Angeles, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UCLA,"Los Angeles, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+United States,UCLA,"Los Angeles, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UCLA,"Los Angeles, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UCLA,"Los Angeles, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UIUC,"Urbana–Champaign, IL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UIUC,"Urbana–Champaign, IL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UIUC,"Urbana–Champaign, IL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UIUC,"Urbana–Champaign, IL",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UIUC,"Urbana–Champaign, IL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,1
+United States,UIUC,"Urbana–Champaign, IL",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UIUC,"Urbana–Champaign, IL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UIUC,"Urbana–Champaign, IL",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,UMass Amherst,"Amherst, MA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,UMass Amherst,"Amherst, MA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UMass Amherst,"Amherst, MA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UMass Amherst,"Amherst, MA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+United States,UMass Amherst,"Amherst, MA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,UMass Amherst,"Amherst, MA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,UMass Amherst,"Amherst, MA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UNC Chapel Hill,"Chapel Hill, NC",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UNC Chapel Hill,"Chapel Hill, NC",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UNC Chapel Hill,"Chapel Hill, NC",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UNC Chapel Hill,"Chapel Hill, NC",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UNC Chapel Hill,"Chapel Hill, NC",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,UNC Chapel Hill,"Chapel Hill, NC",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UNC Chapel Hill,"Chapel Hill, NC",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UNC Chapel Hill,"Chapel Hill, NC",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UPenn,"Philadelphia, PA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UPenn,"Philadelphia, PA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UPenn,"Philadelphia, PA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UPenn,"Philadelphia, PA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,UPenn,"Philadelphia, PA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,UPenn,"Philadelphia, PA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UPenn,"Philadelphia, PA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,UPenn,"Philadelphia, PA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,USC,"Los Angeles, CA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+United States,USC,"Los Angeles, CA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,USC,"Los Angeles, CA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,USC,"Los Angeles, CA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+United States,USC,"Los Angeles, CA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+United States,USC,"Los Angeles, CA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+United States,USC,"Los Angeles, CA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+United States,USF,"Tampa, FL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,USF,"Tampa, FL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,USF,"Tampa, FL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,USF,"Tampa, FL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,USF,"Tampa, FL",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,USF,"Tampa, FL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,USF,"Tampa, FL",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,UT Austin,"Austin, TX",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+United States,UT Austin,"Austin, TX",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UT Austin,"Austin, TX",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,UT Austin,"Austin, TX",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+United States,UT Austin,"Austin, TX",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+United States,UT Austin,"Austin, TX",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,University of Alabama,"Tuscaloosa, AL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Alabama,"Tuscaloosa, AL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Alabama,"Tuscaloosa, AL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Alabama,"Tuscaloosa, AL",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Alabama,"Tuscaloosa, AL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Alabama,"Tuscaloosa, AL",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Chicago,"Chicago, IL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+United States,University of Chicago,"Chicago, IL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+United States,University of Chicago,"Chicago, IL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+United States,University of Chicago,"Chicago, IL",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+United States,University of Chicago,"Chicago, IL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+United States,University of Chicago,"Chicago, IL",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+United States,University of Chicago,"Chicago, IL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+United States,University of Chicago,"Chicago, IL",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+United States,University of Colorado Boulder,"Boulder, CO",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Colorado Boulder,"Boulder, CO",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Colorado Boulder,"Boulder, CO",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Colorado Boulder,"Boulder, CO",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Colorado Boulder,"Boulder, CO",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+United States,University of Colorado Boulder,"Boulder, CO",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Colorado Boulder,"Boulder, CO",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Colorado Boulder,"Boulder, CO",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Florida,"Gainesville, FL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Florida,"Gainesville, FL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Florida,"Gainesville, FL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Florida,"Gainesville, FL",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Florida,"Gainesville, FL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,University of Florida,"Gainesville, FL",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Florida,"Gainesville, FL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Florida,"Gainesville, FL",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Georgia,"Athens, GA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Georgia,"Athens, GA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Georgia,"Athens, GA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Georgia,"Athens, GA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,University of Georgia,"Athens, GA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Georgia,"Athens, GA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,University of Georgia,"Athens, GA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,University of Michigan,"Ann Arbor, MI",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,University of Michigan,"Ann Arbor, MI",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,University of Michigan,"Ann Arbor, MI",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,University of Michigan,"Ann Arbor, MI",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,University of Michigan,"Ann Arbor, MI",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+United States,University of Michigan,"Ann Arbor, MI",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,University of Michigan,"Ann Arbor, MI",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,University of Michigan,"Ann Arbor, MI",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,University of Minnesota,"Minneapolis, MN",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Minnesota,"Minneapolis, MN",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Minnesota,"Minneapolis, MN",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Minnesota,"Minneapolis, MN",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+United States,University of Minnesota,"Minneapolis, MN",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Minnesota,"Minneapolis, MN",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Minnesota,"Minneapolis, MN",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Rochester,"Rochester, NY",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Rochester,"Rochester, NY",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Rochester,"Rochester, NY",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Rochester,"Rochester, NY",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Rochester,"Rochester, NY",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,University of Rochester,"Rochester, NY",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,University of Washington,"Seattle, WA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,University of Washington,"Seattle, WA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,University of Washington,"Seattle, WA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,University of Washington,"Seattle, WA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,University of Washington,"Seattle, WA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+United States,University of Washington,"Seattle, WA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,University of Washington,"Seattle, WA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,University of Washington,"Seattle, WA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+United States,Vanderbilt University,"Nashville, TN",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Vanderbilt University,"Nashville, TN",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Vanderbilt University,"Nashville, TN",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Vanderbilt University,"Nashville, TN",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,Vanderbilt University,"Nashville, TN",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Vanderbilt University,"Nashville, TN",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,Vanderbilt University,"Nashville, TN",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Virginia Tech,"Blacksburg, VA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Virginia Tech,"Blacksburg, VA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Virginia Tech,"Blacksburg, VA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Virginia Tech,"Blacksburg, VA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,Virginia Tech,"Blacksburg, VA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+United States,Virginia Tech,"Blacksburg, VA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Virginia Tech,"Blacksburg, VA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,Virginia Tech,"Blacksburg, VA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+United States,WPI,"Worcester, MA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,WPI,"Worcester, MA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,WPI,"Worcester, MA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,WPI,"Worcester, MA",Econometrics (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,WPI,"Worcester, MA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+United States,WPI,"Worcester, MA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,WPI,"Worcester, MA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+United States,WPI,"Worcester, MA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+United States,William & Mary,"Williamsburg, VA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,William & Mary,"Williamsburg, VA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,William & Mary,"Williamsburg, VA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,William & Mary,"Williamsburg, VA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+United States,William & Mary,"Williamsburg, VA",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,William & Mary,"Williamsburg, VA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+United States,William & Mary,"Williamsburg, VA",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+United States,Yale University,"New Haven, CT",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Yale University,"New Haven, CT",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Yale University,"New Haven, CT",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+United States,Yale University,"New Haven, CT",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+United States,Yale University,"New Haven, CT",Operations Research (BSc/MSc),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Yale University,"New Haven, CT",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+United States,Yale University,"New Haven, CT",Statistics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Others,EPN – Escuela Politécnica Nacional,"Quito, EC",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,EPN – Escuela Politécnica Nacional,"Quito, EC",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,EPN – Escuela Politécnica Nacional,"Quito, EC",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,EPN – Escuela Politécnica Nacional,"Quito, EC",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Others,EPN – Escuela Politécnica Nacional,"Quito, EC",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,EPN – Escuela Politécnica Nacional,"Quito, EC",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,INTEC – Instituto Tecnológico de Santo Domingo,"Santo Domingo, DO",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,INTEC – Instituto Tecnológico de Santo Domingo,"Santo Domingo, DO",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,INTEC – Instituto Tecnológico de Santo Domingo,"Santo Domingo, DO",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,INTEC – Instituto Tecnológico de Santo Domingo,"Santo Domingo, DO",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,INTEC – Instituto Tecnológico de Santo Domingo,"Santo Domingo, DO",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,INTEC – Instituto Tecnológico de Santo Domingo,"Santo Domingo, DO",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,INTEC – Instituto Tecnológico de Santo Domingo,"Santo Domingo, DO",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,ITBA – Inst. Tecnológico de Buenos Aires,"Buenos Aires, AR",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,ITBA – Inst. Tecnológico de Buenos Aires,"Buenos Aires, AR",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,ITBA – Inst. Tecnológico de Buenos Aires,"Buenos Aires, AR",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,ITBA – Inst. Tecnológico de Buenos Aires,"Buenos Aires, AR",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Others,ITBA – Inst. Tecnológico de Buenos Aires,"Buenos Aires, AR",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,ITBA – Inst. Tecnológico de Buenos Aires,"Buenos Aires, AR",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,ORT Uruguay,"Montevideo, UY",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Others,ORT Uruguay,"Montevideo, UY",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,ORT Uruguay,"Montevideo, UY",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,ORT Uruguay,"Montevideo, UY",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,ORT Uruguay,"Montevideo, UY",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Others,ORT Uruguay,"Montevideo, UY",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,ORT Uruguay,"Montevideo, UY",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,ORT Uruguay,"Montevideo, UY",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Others,PUC Chile,"Santiago, CL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,PUC Chile,"Santiago, CL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,PUC Chile,"Santiago, CL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,PUC Chile,"Santiago, CL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Others,PUC Chile,"Santiago, CL",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,PUC Chile,"Santiago, CL",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Others,PUC Chile,"Santiago, CL",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Others,PUCP – Pontificia Univ. Católica del Perú,"Lima, PE",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,PUCP – Pontificia Univ. Católica del Perú,"Lima, PE",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Others,PUCP – Pontificia Univ. Católica del Perú,"Lima, PE",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Others,PUCP – Pontificia Univ. Católica del Perú,"Lima, PE",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,PUCP – Pontificia Univ. Católica del Perú,"Lima, PE",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,PUCP – Pontificia Univ. Católica del Perú,"Lima, PE",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,PUCP – Pontificia Univ. Católica del Perú,"Lima, PE",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,UCR – Universidad de Costa Rica,"San José, CR",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Others,UCR – Universidad de Costa Rica,"San José, CR",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,2
+Others,UCR – Universidad de Costa Rica,"San José, CR",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Others,UCR – Universidad de Costa Rica,"San José, CR",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,2
+Others,UCR – Universidad de Costa Rica,"San José, CR",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Others,UCR – Universidad de Costa Rica,"San José, CR",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,2
+Others,UES – Universidad de El Salvador,"San Salvador, SV",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UES – Universidad de El Salvador,"San Salvador, SV",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UES – Universidad de El Salvador,"San Salvador, SV",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UES – Universidad de El Salvador,"San Salvador, SV",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UES – Universidad de El Salvador,"San Salvador, SV",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UES – Universidad de El Salvador,"San Salvador, SV",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UES – Universidad de El Salvador,"San Salvador, SV",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UES – Universidad de El Salvador,"San Salvador, SV",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UMSA – Mayor de San Andrés,"La Paz, BO",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UMSA – Mayor de San Andrés,"La Paz, BO",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UMSA – Mayor de San Andrés,"La Paz, BO",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UMSA – Mayor de San Andrés,"La Paz, BO",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UMSA – Mayor de San Andrés,"La Paz, BO",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UMSA – Mayor de San Andrés,"La Paz, BO",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UNA – Univ. Nacional de Asunción,"Asunción, PY",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Others,UNA – Univ. Nacional de Asunción,"Asunción, PY",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Others,UNA – Univ. Nacional de Asunción,"Asunción, PY",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Others,UNA – Univ. Nacional de Asunción,"Asunción, PY",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Others,UNA – Univ. Nacional de Asunción,"Asunción, PY",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,1
+Others,UNA – Univ. Nacional de Asunción,"Asunción, PY",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Others,UNA – Univ. Nacional de Asunción,"Asunción, PY",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,1
+Others,UNAH – Univ. Nacional Autónoma de Honduras,"Tegucigalpa, HN",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UNAH – Univ. Nacional Autónoma de Honduras,"Tegucigalpa, HN",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UNAH – Univ. Nacional Autónoma de Honduras,"Tegucigalpa, HN",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UNAH – Univ. Nacional Autónoma de Honduras,"Tegucigalpa, HN",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UNAH – Univ. Nacional Autónoma de Honduras,"Tegucigalpa, HN",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UNAH – Univ. Nacional Autónoma de Honduras,"Tegucigalpa, HN",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UNAH – Univ. Nacional Autónoma de Honduras,"Tegucigalpa, HN",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UNAH – Univ. Nacional Autónoma de Honduras,"Tegucigalpa, HN",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UNC – Univ. Nacional de Córdoba,"Córdoba, AR",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Others,UNC – Univ. Nacional de Córdoba,"Córdoba, AR",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Others,UNC – Univ. Nacional de Córdoba,"Córdoba, AR",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,1
+Others,UNC – Univ. Nacional de Córdoba,"Córdoba, AR",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Others,UNC – Univ. Nacional de Córdoba,"Córdoba, AR",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,1
+Others,UNC – Univ. Nacional de Córdoba,"Córdoba, AR",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Others,UNC – Univ. Nacional de Córdoba,"Córdoba, AR",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,1
+Others,UNI – Univ. Nacional de Ingeniería (Nicaragua),"Managua, NI",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UNI – Univ. Nacional de Ingeniería (Nicaragua),"Managua, NI",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UNI – Univ. Nacional de Ingeniería (Nicaragua),"Managua, NI",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UNI – Univ. Nacional de Ingeniería (Nicaragua),"Managua, NI",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UNI – Univ. Nacional de Ingeniería (Nicaragua),"Managua, NI",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UNI – Univ. Nacional de Ingeniería (Nicaragua),"Managua, NI",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UNI – Univ. Nacional de Ingeniería (Peru),"Lima, PE",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,UNI – Univ. Nacional de Ingeniería (Peru),"Lima, PE",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Others,UNI – Univ. Nacional de Ingeniería (Peru),"Lima, PE",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Others,UNI – Univ. Nacional de Ingeniería (Peru),"Lima, PE",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,UNI – Univ. Nacional de Ingeniería (Peru),"Lima, PE",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,UNI – Univ. Nacional de Ingeniería (Peru),"Lima, PE",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,UNI – Univ. Nacional de Ingeniería (Peru),"Lima, PE",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,UNLP – Univ. Nacional de La Plata,"La Plata, AR",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Others,UNLP – Univ. Nacional de La Plata,"La Plata, AR",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Others,UNLP – Univ. Nacional de La Plata,"La Plata, AR",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Others,UNLP – Univ. Nacional de La Plata,"La Plata, AR",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Others,UNLP – Univ. Nacional de La Plata,"La Plata, AR",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Others,UNLP – Univ. Nacional de La Plata,"La Plata, AR",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Others,UNLP – Univ. Nacional de La Plata,"La Plata, AR",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,1
+Others,UNLP – Univ. Nacional de La Plata,"La Plata, AR",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,1
+Others,USACH – Univ. de Santiago,"Santiago, CL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Others,USACH – Univ. de Santiago,"Santiago, CL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,USACH – Univ. de Santiago,"Santiago, CL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,USACH – Univ. de Santiago,"Santiago, CL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,USACH – Univ. de Santiago,"Santiago, CL",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Others,USACH – Univ. de Santiago,"Santiago, CL",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,USACH – Univ. de Santiago,"Santiago, CL",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,USACH – Univ. de Santiago,"Santiago, CL",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Others,USFQ – Univ. San Francisco de Quito,"Quito, EC",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Others,USFQ – Univ. San Francisco de Quito,"Quito, EC",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,USFQ – Univ. San Francisco de Quito,"Quito, EC",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,USFQ – Univ. San Francisco de Quito,"Quito, EC",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,USFQ – Univ. San Francisco de Quito,"Quito, EC",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,2,3,2
+Others,USFQ – Univ. San Francisco de Quito,"Quito, EC",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,USFQ – Univ. San Francisco de Quito,"Quito, EC",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,2,2,2
+Others,UTEC – Univ. de Ingeniería y Tecnología,"Lima, PE",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Others,UTEC – Univ. de Ingeniería y Tecnología,"Lima, PE",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Others,UTEC – Univ. de Ingeniería y Tecnología,"Lima, PE",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,UTEC – Univ. de Ingeniería y Tecnología,"Lima, PE",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,UTEC – Univ. de Ingeniería y Tecnología,"Lima, PE",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,UTEC – Univ. de Ingeniería y Tecnología,"Lima, PE",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,UTFSM – Federico Santa María,"Valparaíso, CL",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Others,UTFSM – Federico Santa María,"Valparaíso, CL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Others,UTFSM – Federico Santa María,"Valparaíso, CL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Others,UTFSM – Federico Santa María,"Valparaíso, CL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,1
+Others,UTFSM – Federico Santa María,"Valparaíso, CL",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,1
+Others,UTFSM – Federico Santa María,"Valparaíso, CL",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,1
+Others,UTFSM – Federico Santa María,"Valparaíso, CL",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,1
+Others,UTP – Univ. Tecnológica de Panamá,"Panamá, PA",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UTP – Univ. Tecnológica de Panamá,"Panamá, PA",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UTP – Univ. Tecnológica de Panamá,"Panamá, PA",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UTP – Univ. Tecnológica de Panamá,"Panamá, PA",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UTP – Univ. Tecnológica de Panamá,"Panamá, PA",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UTP – Univ. Tecnológica de Panamá,"Panamá, PA",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UTP – Univ. Tecnológica de Panamá,"Panamá, PA",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UTP – Univ. Tecnológica de Panamá,"Panamá, PA",Software Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UVG – Univ. del Valle de Guatemala,"Guatemala City, GT",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UVG – Univ. del Valle de Guatemala,"Guatemala City, GT",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,2,1,3,1
+Others,UVG – Univ. del Valle de Guatemala,"Guatemala City, GT",Economics (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UVG – Univ. del Valle de Guatemala,"Guatemala City, GT",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,1,1,3,1
+Others,UVG – Univ. del Valle de Guatemala,"Guatemala City, GT",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,UVG – Univ. del Valle de Guatemala,"Guatemala City, GT",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,1,1,2,1
+Others,Udelar – Universidad de la República,"Montevideo, UY",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Others,Udelar – Universidad de la República,"Montevideo, UY",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,2,3,2
+Others,Udelar – Universidad de la República,"Montevideo, UY",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,Udelar – Universidad de la República,"Montevideo, UY",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,2,3,2
+Others,Udelar – Universidad de la República,"Montevideo, UY",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,Udelar – Universidad de la República,"Montevideo, UY",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,2,2,2
+Others,Universidad de Buenos Aires (UBA),"Buenos Aires, AR",Computer Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Others,Universidad de Buenos Aires (UBA),"Buenos Aires, AR",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,Universidad de Buenos Aires (UBA),"Buenos Aires, AR",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,Universidad de Buenos Aires (UBA),"Buenos Aires, AR",Economics (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,Universidad de Buenos Aires (UBA),"Buenos Aires, AR",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,2,3,3,2
+Others,Universidad de Buenos Aires (UBA),"Buenos Aires, AR",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,Universidad de Buenos Aires (UBA),"Buenos Aires, AR",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,2,3,2,2
+Others,Universidad de Chile,"Santiago, CL",Computer Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,Universidad de Chile,"Santiago, CL",Data Science (BSc),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,Universidad de Chile,"Santiago, CL",Economics (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Others,Universidad de Chile,"Santiago, CL",Industrial Engineering – Data/Analytics (BEng),Heuristic simple scores; adjust when you have better data.,3,3,3,2
+Others,Universidad de Chile,"Santiago, CL",Information Systems (BSc),Heuristic simple scores; adjust when you have better data.,3,3,2,2
+Others,Universidad de Chile,"Santiago, CL",Production Engineering (BEng),Heuristic simple scores; adjust when you have better data.,3,3,2,2

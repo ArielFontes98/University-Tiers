@@ -1,25 +1,20 @@
+// Simplified data model with 4 criteria
 export interface CourseData {
   Country: string;
   University: string;
   'City/Region': string;
   'Course Archetype': string;
   Notes: string;
-  'Curriculum Depth (DS/ML/Stats/SQL) (0-10)': number;
-  'Engineering Foundations (0-10)': number;
-  'Data Engineering Exposure (0-10)': number;
-  'Analytics/Business Orientation (0-10)': number;
-  'Cohort Size & Continuity (0-10)': number;
-  'Capstone/Projects Intensity (0-10)': number;
-  'Tools & Stack Familiarity (0-10)': number;
-  'Clubs & Competitions (0-10)': number;
-  'Internship Alignment (0-10)': number;
-  'D&I Pipeline Contribution (0-10)': number;
-  'Regional Coverage Fit (0-10)': number;
-  [key: string]: string | number; // For optional "Source: ..." columns
+  Quality_0_3: number;
+  Scale_0_3: number;
+  Employability_0_3: number;
+  GeoFit_0_2: number;
+  [key: string]: string | number; // For any additional optional fields
 }
 
 export interface ScoredCourse extends CourseData {
-  baseScore: number;
+  rawScore: number;
+  baseScore: number;      // 0-100 normalized
   countryModifier: number;
   finalScore: number;
   tier: string;
@@ -27,7 +22,10 @@ export interface ScoredCourse extends CourseData {
 
 export type TargetFunction = 'AE' | 'BA' | 'DS/MLE';
 
-export interface Weights {
-  [key: string]: number;
+// Simple weights for the 4 criteria
+export interface FunctionWeights {
+  wQ: number;  // Quality weight
+  wS: number;  // Scale weight
+  wE: number;  // Employability weight
+  wG: number;  // GeoFit weight
 }
-

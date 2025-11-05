@@ -12,6 +12,12 @@ interface SidebarFiltersProps {
   onClearFilters: () => void;
 }
 
+const FUNCTION_DESCRIPTIONS: Record<TargetFunction, string> = {
+  'AE': 'Analytics Engineering / Data Engineering',
+  'BA': 'Business / Product Analytics',
+  'DS/MLE': 'Data Science / ML Engineering',
+};
+
 export default function SidebarFilters({
   countries,
   archetypes,
@@ -53,21 +59,28 @@ export default function SidebarFilters({
 
       {/* Target Function */}
       <div>
-        <label className="block text-sm font-semibold text-gray-700 mb-3">
+        <label className="block text-sm font-semibold text-gray-700 mb-2">
           Target Function
         </label>
+        <p className="text-xs text-gray-500 mb-3">
+          Different functions emphasize different criteria through adjusted weights
+        </p>
         <div className="space-y-2">
           {(['AE', 'BA', 'DS/MLE'] as TargetFunction[]).map(func => (
             <button
               key={func}
               onClick={() => onFunctionChange(func)}
-              className={`w-full px-4 py-2.5 rounded-xl text-left font-medium transition-all ${
+              className={`w-full px-4 py-3 rounded-xl text-left transition-all ${
                 targetFunction === func
                   ? 'bg-primary text-white shadow-md'
                   : 'bg-gray-50 text-gray-700 hover:bg-gray-100'
               }`}
+              title={FUNCTION_DESCRIPTIONS[func]}
             >
-              {func}
+              <div className="font-medium">{func}</div>
+              <div className={`text-xs mt-0.5 ${targetFunction === func ? 'text-purple-100' : 'text-gray-500'}`}>
+                {FUNCTION_DESCRIPTIONS[func]}
+              </div>
             </button>
           ))}
         </div>
@@ -76,7 +89,7 @@ export default function SidebarFilters({
       {/* Countries */}
       <div>
         <label className="block text-sm font-semibold text-gray-700 mb-3">
-          Country ({selectedCountries.length} selected)
+          Country {selectedCountries.length > 0 && `(${selectedCountries.length} selected)`}
         </label>
         <div className="space-y-2 max-h-64 overflow-y-auto">
           {countries.map(country => (
@@ -99,7 +112,7 @@ export default function SidebarFilters({
       {/* Course Archetypes */}
       <div>
         <label className="block text-sm font-semibold text-gray-700 mb-3">
-          Course Archetype ({selectedArchetypes.length} selected)
+          Course Archetype {selectedArchetypes.length > 0 && `(${selectedArchetypes.length} selected)`}
         </label>
         <div className="space-y-2 max-h-64 overflow-y-auto">
           {archetypes.map(archetype => (

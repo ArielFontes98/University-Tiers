@@ -1,17 +1,10 @@
 import { CourseData } from './types';
 
-const CRITERION_HEADERS = [
-  'Curriculum Depth (DS/ML/Stats/SQL) (0-10)',
-  'Engineering Foundations (0-10)',
-  'Data Engineering Exposure (0-10)',
-  'Analytics/Business Orientation (0-10)',
-  'Cohort Size & Continuity (0-10)',
-  'Capstone/Projects Intensity (0-10)',
-  'Tools & Stack Familiarity (0-10)',
-  'Clubs & Competitions (0-10)',
-  'Internship Alignment (0-10)',
-  'D&I Pipeline Contribution (0-10)',
-  'Regional Coverage Fit (0-10)',
+const NUMERIC_FIELDS = [
+  'Quality_0_3',
+  'Scale_0_3', 
+  'Employability_0_3',
+  'GeoFit_0_2'
 ];
 
 async function loadJSON(url: string): Promise<CourseData[]> {
@@ -38,8 +31,8 @@ function parseCSV(text: string): CourseData[] {
     const row: any = {};
     headers.forEach((header, idx) => {
       const value = values[idx];
-      // Check if this is a numeric criterion
-      if (CRITERION_HEADERS.includes(header)) {
+      // Check if this is a numeric field
+      if (NUMERIC_FIELDS.includes(header)) {
         row[header] = parseFloat(value) || 0;
       } else {
         row[header] = value;
@@ -80,10 +73,21 @@ async function loadCSV(url: string): Promise<CourseData[]> {
   return parseCSV(text);
 }
 
+/**
+ * Loads course data from JSON (preferred) or CSV (fallback).
+ * 
+ * Data file paths:
+ * - Primary: public/data/university_course_simple_scores.json
+ * - Fallback: public/data/university_course_simple_scores.csv
+ * 
+ * Expected fields:
+ * - Country, University, City/Region, Course Archetype, Notes (strings)
+ * - Quality_0_3, Scale_0_3, Employability_0_3, GeoFit_0_2 (numbers)
+ */
 export async function loadCourseData(): Promise<CourseData[]> {
   const baseUrl = import.meta.env.BASE_URL;
-  const jsonUrl = `${baseUrl}data/university_course_criteria_base.json`;
-  const csvUrl = `${baseUrl}data/university_course_criteria_base.csv`;
+  const jsonUrl = `${baseUrl}data/university_course_simple_scores.json`;
+  const csvUrl = `${baseUrl}data/university_course_simple_scores.csv`;
 
   try {
     console.log('Loading data from JSON:', jsonUrl);
@@ -108,4 +112,3 @@ export async function loadCourseData(): Promise<CourseData[]> {
     }
   }
 }
-

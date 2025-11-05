@@ -1,77 +1,100 @@
-import { ScoredCourse, TargetFunction, Weights } from './types';
-import { CRITERION_KEYS } from './scoring';
+import { ScoredCourse, TargetFunction, FunctionWeights } from './types';
 
+interface ExportFilters {
+  countries: string[];
+  archetypes: string[];
+}
+
+/**
+ * Export scored courses to CSV with metadata header.
+ * 
+ * Includes:
+ * - Metadata comment lines (target function, filters, weights)
+ * - All raw data fields (Country, University, City/Region, Course Archetype, Notes)
+ * - Raw criterion scores (Quality_0_3, Scale_0_3, Employability_0_3, GeoFit_0_2)
+ * - Computed fields (rawScore, baseScore, countryModifier, finalScore, tier)
+ */
 export function exportToCSV(
   courses: ScoredCourse[],
   targetFunction: TargetFunction,
-  weights: Weights,
+  weights: FunctionWeights,
   countryModifiers: Record<string, number>,
-  filters: {
-    countries: string[];
-    archetypes: string[];
-  }
+  filters: ExportFilters
 ): void {
-  // Build CSV content
-  const lines: string[] = [];
+  if (courses.length === 0) {
+    alert('No courses to export');
+    return;
+  }
 
-  // Metadata header
-  lines.push('# STEM Course Prioritization Export');
-  lines.push(`# Target Function: ${targetFunction}`);
-  lines.push(`# Countries Filter: ${filters.countries.length > 0 ? filters.countries.join(', ') : 'All'}`);
-  lines.push(`# Archetypes Filter: ${filters.archetypes.length > 0 ? filters.archetypes.join(', ') : 'All'}`);
-  lines.push('# Current Weights:');
-  CRITERION_KEYS.forEach((key, idx) => {
-    const shortName = key.replace(' (0-10)', '').replace('(DS/ML/Stats/SQL) ', '');
-    lines.push(`#   ${idx + 1}. ${shortName}: ${weights[key]?.toFixed(1) ?? '1.0'}`);
-  });
-  lines.push('# Country Modifiers:');
-  Object.entries(countryModifiers).sort().forEach(([country, modifier]) => {
-    lines.push(`#   ${country}: ${modifier.toFixed(2)}x`);
-  });
-  lines.push('');
+  // Build metadata header
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, -5);
+  const metadata = [
+    `# STEM Course Prioritization Export`,
+    `# Generated: ${new Date().toLocaleString()}`,
+    `# Target Function: ${targetFunction}`,
+    `# Active Filters:`,
+    `#   Countries: ${filters.countries.length > 0 ? filters.countries.join(', ') : 'All'}`,
+    `#   Archetypes: ${filters.archetypes.length > 0 ? filters.archetypes.join(', ') : 'All'}`,
+    `# Function Weights:`,
+    `#   Quality (wQ): ${weights.wQ.toFixed(2)}`,
+    `#   Scale (wS): ${weights.wS.toFixed(2)}`,
+    `#   Employability (wE): ${weights.wE.toFixed(2)}`,
+    `#   GeoFit (wG): ${weights.wG.toFixed(2)}`,
+    `#`,
+  ].join('\n');
 
-  // CSV Headers
+  // CSV headers
   const headers = [
     'Country',
     'University',
     'City/Region',
     'Course Archetype',
-    'Base Score',
-    'Country Modifier',
-    'Final Score',
-    'Tier',
-    ...CRITERION_KEYS,
     'Notes',
+    'Quality_0_3',
+    'Scale_0_3',
+    'Employability_0_3',
+    'GeoFit_0_2',
+    'RawScore',
+    'BaseScore_0_100',
+    'CountryModifier',
+    'FinalScore',
+    'Tier',
   ];
-  lines.push(headers.map(escapeCSV).join(','));
 
-  // Data rows
-  courses.forEach(course => {
-    const row = [
-      course.Country,
-      course.University,
-      course['City/Region'],
-      course['Course Archetype'],
-      course.baseScore.toFixed(2),
-      course.countryModifier.toFixed(2),
-      course.finalScore.toFixed(2),
-      course.tier,
-      ...CRITERION_KEYS.map(key => (course[key] as number || 0).toString()),
-      course.Notes || '',
-    ];
-    lines.push(row.map(escapeCSV).join(','));
-  });
+  // Build CSV rows
+  const rows = courses.map(course => [
+    escapeCSV(course.Country),
+    escapeCSV(course.University),
+    escapeCSV(course['City/Region']),
+    escapeCSV(course['Course Archetype']),
+    escapeCSV(course.Notes),
+    course.Quality_0_3,
+    course.Scale_0_3,
+    course.Employability_0_3,
+    course.GeoFit_0_2,
+    course.rawScore.toFixed(2),
+    course.baseScore.toFixed(2),
+    course.countryModifier.toFixed(2),
+    course.finalScore.toFixed(2),
+    escapeCSV(course.tier),
+  ]);
 
-  // Create and download
-  const csvContent = lines.join('\n');
+  // Combine all parts
+  const csvContent = [
+    metadata,
+    headers.join(','),
+    ...rows.map(row => row.join(',')),
+  ].join('\n');
+
+  // Download
   const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
   const link = document.createElement('a');
   const url = URL.createObjectURL(blob);
   
-  const timestamp = new Date().toISOString().slice(0, 19).replace(/:/g, '-');
   link.setAttribute('href', url);
-  link.setAttribute('download', `stem-courses-${targetFunction}-${timestamp}.csv`);
+  link.setAttribute('download', `university-tiers-${targetFunction}-${timestamp}.csv`);
   link.style.visibility = 'hidden';
+  
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -84,4 +107,3 @@ function escapeCSV(value: string | number): string {
   }
   return str;
 }
-
